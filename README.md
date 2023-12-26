@@ -14,17 +14,16 @@ Miscommunication leads to miscoded user interfaces. Removing these miscommunicat
 By providing this information for free MobA11y hopes to equip development teams with the information they need to communicate clearly about platform Assistive Technology users.
 
 ## Why N-ARIA? 
-ARIA stands for Accessibility Rich Internet Applications. It is a set of roles and attributes that accessibility experts frequently refer to when talking about user behaviors. However, those words don't always mean the same thing for Native Platforms. 
+ARIA stands for Accessible Rich Internet Applications. It is a set of roles and attributes that accessibility experts use to talk about Web Accessibility and carry over to Mobile Accessibility. However, those words don't always mean the same thing for Native Platforms. 
 
-> We have seen more than one well intentioned engineer do exactly what an Accessibility Expert
-> asked them while reaching a disastrously inaccessible result! :)
+> We have seen more than one well intentioned engineer do exactly what an Accessibility Expert asked them while reaching a disastrously inaccessible result! :)
 
-Native ARIA, N-ARIA, aims to fill this gap in a meaningful way for development teams by leveraging a recognized grammar, behavioral demos, and freely available implementation details you can easily pass with a link.
+N-ARIA aims to fill this gap in a meaningful way for development teams by leveraging a familiar grammar, behavioral demos, and freely available implementation details you can easily pass with a link.
 
-## Code Organization
-Gode code is well documented. N-ARIA uses a state of the art documentation engine that connects development teams to the assistive technology user experiences in browser without requiring an iOS Device! This allows N-ARIA patterns to clearly document the portions of SwiftUI that matter behaviorally. This connects designers with a deeper understanding of the intent of a component and testers a clear set of behaviors for testing. 
+## Documentation
+Good code is well documented. The [N-ARIA Documentation Engine](https://ios.moba11y.com/n-aria) connects development teams to assistive technology user experiences in browser. No iOS Device needed! This connects designers with a deeper understanding of the intent of a component, testers a clear set of behaviors for testing, and engineers clear implementation requirements... even when patterns don't quite match. 
 
-This documentation engine heavily favors the following project structure:
+This documentation engine favors the following project structure:
 
 - Types
 - Components
