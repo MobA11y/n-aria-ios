@@ -1,0 +1,222 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "AppName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "N-ARIA"
+          }
+        }
+      }
+    },
+    "Chris-Affiliation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MobA11y"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MobA11y"
+          }
+        }
+      }
+    },
+    "Chris-Comment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistive Technology Inventor"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inventor de tecnología de asistencia"
+          }
+        }
+      }
+    },
+    "Chris-Details" : {
+      "comment" : "Details about a contact.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chris McMeeking started his career in Accessibility working on the Assistive Scanning Keyboard project as CTO of ASK Interfaces and in partership with the University of Michigan and Mott Children's Hopsital. ASK Interfaces would go on to win $100,000 from Intel Innovators and recognition from the Multiple Sclerosis Foundation. This technology evolved into Switch Control.\n\nChris started MobA11y to build another Assistive Technology!"
+          }
+        }
+      }
+    },
+    "Chris-ImageDescription" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chris smiling and wearing a University of Michigan hat."
+          }
+        }
+      }
+    },
+    "Chris-ImageDesription" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chris smiling and wearing a University of Michigan hat."
+          }
+        }
+      }
+    },
+    "Chris-Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chris McMeeking"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chris McMeeking"
+          }
+        }
+      }
+    },
+    "Chris-Title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CTO"
+          }
+        }
+      }
+    },
+    "Components" : {
+      "comment" : "The header of the Naria components section.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Components"
+          }
+        }
+      }
+    },
+    "Contacts" : {
+
+    },
+    "Experiences" : {
+      "comment" : "The header of the experiences section."
+    },
+    "MobA11y-Affiliation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HAi1Y"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HAi1Y"
+          }
+        }
+      }
+    },
+    "MobA11y-Comment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mobile Accessibility"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accesibilidad móvil"
+          }
+        }
+      }
+    },
+    "MobA11y-Details" : {
+
+    },
+    "MobA11y-ImageDescription" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A robotic arm supporting a mobile device."
+          }
+        }
+      }
+    },
+    "MobA11y-Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MobA11y"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MobA11y"
+          }
+        }
+      }
+    },
+    "MobA11y-Title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Company"
+          }
+        }
+      }
+    },
+    "Profile" : {
+      "comment" : "Description of the image in a proifle icon."
+    },
+    "ProfileIconDescription" : {
+
+    },
+    "Required" : {
+
+    },
+    "Simple Form" : {
+
+    },
+    "Valid" : {
+
+    },
+    "Violation" : {
+
+    }
+  },
+  "version" : "1.0"
+}

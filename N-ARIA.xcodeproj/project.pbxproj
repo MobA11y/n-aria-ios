@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA63BDA2B29333D00EC119F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BD92B29333D00EC119F /* App.swift */; };
+		0FA63BDC2B29333D00EC119F /* SimpleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BDB2B29333D00EC119F /* SimpleForm.swift */; };
+		0FA63BDE2B29334100EC119F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA63BDD2B29334100EC119F /* Assets.xcassets */; };
+		0FA63BEA2B29344D00EC119F /* NAriaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BE92B29344D00EC119F /* NAriaTextField.swift */; };
+		0FA63BEC2B29372800EC119F /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BEB2B29372800EC119F /* TextFieldStyle.swift */; };
+		15C63C4D2B2952870098B210 /* RoundedRectangleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */; };
+		832562822B38E7B70074E282 /* NAriaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562812B38E7B70074E282 /* NAriaIcon.swift */; };
+		832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562862B38F47C0074E282 /* NAriaProfileIcon.swift */; };
+		832562892B38FAE00074E282 /* NAriaContactProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562882B38FAE00074E282 /* NAriaContactProfile.swift */; };
+		8325628B2B3902A10074E282 /* NAriaMasterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325628A2B3902A10074E282 /* NAriaMasterDetail.swift */; };
+		8325628D2B3904130074E282 /* NAriaContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325628C2B3904130074E282 /* NAriaContact.swift */; };
+		8325628F2B393D2B0074E282 /* NAriaSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325628E2B393D2B0074E282 /* NAriaSheet.swift */; };
+		832562912B393DF60074E282 /* NAriaCTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562902B393DF60074E282 /* NAriaCTA.swift */; };
+		832562932B3946E10074E282 /* NAriaContact_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562922B3946E10074E282 /* NAriaContact_1.swift */; };
+		83805DCF2B34B56E0007DFA7 /* NAriaContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */; };
+		83805DD42B34B6AE0007DFA7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83805DD32B34B6AE0007DFA7 /* Contact.swift */; };
+		83805DD62B34C7300007DFA7 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83805DD52B34C7300007DFA7 /* ContactsList.swift */; };
+		83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */; };
+		83E6EB082B37E2BD00AE3E2E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB072B37E2BD00AE3E2E /* Color.swift */; };
+		83E6EB0A2B37EB1C00AE3E2E /* NAriaListIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */; };
+		83E6EB0C2B37F3DF00AE3E2E /* NavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB0B2B37F3DF00AE3E2E /* NavigationLinkStyle.swift */; };
+		83E6EB0E2B38030700AE3E2E /* NAriaNavItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB0D2B38030700AE3E2E /* NAriaNavItem.swift */; };
+		83E6EB102B38112500AE3E2E /* NAriaNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB0F2B38112500AE3E2E /* NAriaNav.swift */; };
+		83E6EB122B3815CE00AE3E2E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB112B3815CE00AE3E2E /* Strings.swift */; };
+		83E6EB142B381A4400AE3E2E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB132B381A4400AE3E2E /* Data.swift */; };
+		83E6EB1B2B382C6A00AE3E2E /* NAriaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB1A2B382C6A00AE3E2E /* NAriaList.swift */; };
+		83E6EB1D2B382CE400AE3E2E /* NAriaSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB1C2B382CE400AE3E2E /* NAriaSection.swift */; };
+		83E6EB202B38304900AE3E2E /* NAriaTextField_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB1F2B38304900AE3E2E /* NAriaTextField_1.swift */; };
+		83E6EB232B38334D00AE3E2E /* NAriaContactCard_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB222B38334D00AE3E2E /* NAriaContactCard_1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A7E2FE2B38A0E8003577CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA63BCE2B29333D00EC119F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA63BD52B29333D00EC119F;
+			remoteInfo = NARIA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83A7E30B2B38A0E8003577CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0FA63BD62B29333D00EC119F /* N-ARIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "N-ARIA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA63BD92B29333D00EC119F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		0FA63BDB2B29333D00EC119F /* SimpleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleForm.swift; sourceTree = "<group>"; };
+		0FA63BDD2B29334100EC119F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FA63BE92B29344D00EC119F /* NAriaTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaTextField.swift; sourceTree = "<group>"; };
+		0FA63BEB2B29372800EC119F /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleModifier.swift; sourceTree = "<group>"; };
+		832562812B38E7B70074E282 /* NAriaIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaIcon.swift; sourceTree = "<group>"; };
+		832562862B38F47C0074E282 /* NAriaProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaProfileIcon.swift; sourceTree = "<group>"; };
+		832562882B38FAE00074E282 /* NAriaContactProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContactProfile.swift; sourceTree = "<group>"; };
+		8325628A2B3902A10074E282 /* NAriaMasterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaMasterDetail.swift; sourceTree = "<group>"; };
+		8325628C2B3904130074E282 /* NAriaContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContact.swift; sourceTree = "<group>"; };
+		8325628E2B393D2B0074E282 /* NAriaSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaSheet.swift; sourceTree = "<group>"; };
+		832562902B393DF60074E282 /* NAriaCTA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaCTA.swift; sourceTree = "<group>"; };
+		832562922B3946E10074E282 /* NAriaContact_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContact_1.swift; sourceTree = "<group>"; };
+		832562942B3A80A20074E282 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContactCard.swift; sourceTree = "<group>"; };
+		83805DD32B34B6AE0007DFA7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		83805DD52B34C7300007DFA7 /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
+		83A7E2FA2B38A0E8003577CF /* N-ARIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-ARIATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		83E6EB072B37E2BD00AE3E2E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaListIcon.swift; sourceTree = "<group>"; };
+		83E6EB0B2B37F3DF00AE3E2E /* NavigationLinkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkStyle.swift; sourceTree = "<group>"; };
+		83E6EB0D2B38030700AE3E2E /* NAriaNavItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaNavItem.swift; sourceTree = "<group>"; };
+		83E6EB0F2B38112500AE3E2E /* NAriaNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaNav.swift; sourceTree = "<group>"; };
+		83E6EB112B3815CE00AE3E2E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		83E6EB132B381A4400AE3E2E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		83E6EB1A2B382C6A00AE3E2E /* NAriaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaList.swift; sourceTree = "<group>"; };
+		83E6EB1C2B382CE400AE3E2E /* NAriaSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaSection.swift; sourceTree = "<group>"; };
+		83E6EB1F2B38304900AE3E2E /* NAriaTextField_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaTextField_1.swift; sourceTree = "<group>"; };
+		83E6EB222B38334D00AE3E2E /* NAriaContactCard_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContactCard_1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA63BD32B29333D00EC119F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7E2F72B38A0E8003577CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA63BCD2B29333D00EC119F = {
+			isa = PBXGroup;
+			children = (
+				835109C82B38C80500072121 /* Application */,
+				83A7E2F22B38A0E8003577CF /* Library */,
+				0FA63BD72B29333D00EC119F /* Products */,
+				8325627D2B38D22A0074E282 /* Frameworks */,
+				832562942B3A80A20074E282 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		0FA63BD72B29333D00EC119F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA63BD62B29333D00EC119F /* N-ARIA.app */,
+				83A7E2FA2B38A0E8003577CF /* N-ARIATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FA63BE72B29335A00EC119F /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				0FA63BEB2B29372800EC119F /* TextFieldStyle.swift */,
+				83E6EB0B2B37F3DF00AE3E2E /* NavigationLinkStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		0FA63BE82B29342500EC119F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				832562832B38E9BE0074E282 /* Icons */,
+				0FA63BE92B29344D00EC119F /* NAriaTextField.swift */,
+				83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */,
+				832562882B38FAE00074E282 /* NAriaContactProfile.swift */,
+				83E6EB0D2B38030700AE3E2E /* NAriaNavItem.swift */,
+				83E6EB0F2B38112500AE3E2E /* NAriaNav.swift */,
+				83E6EB1A2B382C6A00AE3E2E /* NAriaList.swift */,
+				83E6EB1C2B382CE400AE3E2E /* NAriaSection.swift */,
+				832562812B38E7B70074E282 /* NAriaIcon.swift */,
+				8325628E2B393D2B0074E282 /* NAriaSheet.swift */,
+				832562902B393DF60074E282 /* NAriaCTA.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0FA63BED2B2939C300EC119F /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				0FA63BDB2B29333D00EC119F /* SimpleForm.swift */,
+				83805DD52B34C7300007DFA7 /* ContactsList.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		15C63C4E2B295D050098B210 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		8325627D2B38D22A0074E282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832562832B38E9BE0074E282 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */,
+				832562862B38F47C0074E282 /* NAriaProfileIcon.swift */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		835109C82B38C80500072121 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0FA63BD92B29333D00EC119F /* App.swift */,
+				83E6EB072B37E2BD00AE3E2E /* Color.swift */,
+				83E6EB112B3815CE00AE3E2E /* Strings.swift */,
+				83E6EB132B381A4400AE3E2E /* Data.swift */,
+				83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */,
+				0FA63BDD2B29334100EC119F /* Assets.xcassets */,
+				0FA63BED2B2939C300EC119F /* Demos */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		83805DD22B34B6940007DFA7 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				83805DD32B34B6AE0007DFA7 /* Contact.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		83A7E2F22B38A0E8003577CF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				83805DD22B34B6940007DFA7 /* Types */,
+				0FA63BE82B29342500EC119F /* Components */,
+				83E6EB212B38325900AE3E2E /* AntiPatterns */,
+				0FA63BE72B29335A00EC119F /* Styles */,
+				15C63C4E2B295D050098B210 /* Modifiers */,
+				83E6EB172B38279600AE3E2E /* Experiences */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		83E6EB172B38279600AE3E2E /* Experiences */ = {
+			isa = PBXGroup;
+			children = (
+				8325628C2B3904130074E282 /* NAriaContact.swift */,
+				8325628A2B3902A10074E282 /* NAriaMasterDetail.swift */,
+			);
+			path = Experiences;
+			sourceTree = "<group>";
+		};
+		83E6EB212B38325900AE3E2E /* AntiPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				83E6EB1F2B38304900AE3E2E /* NAriaTextField_1.swift */,
+				83E6EB222B38334D00AE3E2E /* NAriaContactCard_1.swift */,
+				832562922B3946E10074E282 /* NAriaContact_1.swift */,
+			);
+			path = AntiPatterns;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FA63BD52B29333D00EC119F /* N-ARIA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA63BE42B29334100EC119F /* Build configuration list for PBXNativeTarget "N-ARIA" */;
+			buildPhases = (
+				0FA63BD22B29333D00EC119F /* Sources */,
+				0FA63BD32B29333D00EC119F /* Frameworks */,
+				0FA63BD42B29333D00EC119F /* Resources */,
+				83A7E30B2B38A0E8003577CF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "N-ARIA";
+			productName = NARIA;
+			productReference = 0FA63BD62B29333D00EC119F /* N-ARIA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A7E2F92B38A0E8003577CF /* N-ARIATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A7E30C2B38A0E8003577CF /* Build configuration list for PBXNativeTarget "N-ARIATests" */;
+			buildPhases = (
+				83A7E2F62B38A0E8003577CF /* Sources */,
+				83A7E2F72B38A0E8003577CF /* Frameworks */,
+				83A7E2F82B38A0E8003577CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A7E2FF2B38A0E8003577CF /* PBXTargetDependency */,
+			);
+			name = "N-ARIATests";
+			productName = "N-ARIATests";
+			productReference = 83A7E2FA2B38A0E8003577CF /* N-ARIATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FA63BCE2B29333D00EC119F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0FA63BD52B29333D00EC119F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					83A7E2F92B38A0E8003577CF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0FA63BD52B29333D00EC119F;
+					};
+				};
+			};
+			buildConfigurationList = 0FA63BD12B29333D00EC119F /* Build configuration list for PBXProject "N-ARIA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 0FA63BCD2B29333D00EC119F;
+			productRefGroup = 0FA63BD72B29333D00EC119F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA63BD52B29333D00EC119F /* N-ARIA */,
+				83A7E2F92B38A0E8003577CF /* N-ARIATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FA63BD42B29333D00EC119F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA63BDE2B29334100EC119F /* Assets.xcassets in Resources */,
+				83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7E2F82B38A0E8003577CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA63BD22B29333D00EC119F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA63BDC2B29333D00EC119F /* SimpleForm.swift in Sources */,
+				8325628B2B3902A10074E282 /* NAriaMasterDetail.swift in Sources */,
+				83E6EB142B381A4400AE3E2E /* Data.swift in Sources */,
+				832562822B38E7B70074E282 /* NAriaIcon.swift in Sources */,
+				83805DD42B34B6AE0007DFA7 /* Contact.swift in Sources */,
+				83E6EB0A2B37EB1C00AE3E2E /* NAriaListIcon.swift in Sources */,
+				83E6EB1D2B382CE400AE3E2E /* NAriaSection.swift in Sources */,
+				0FA63BEC2B29372800EC119F /* TextFieldStyle.swift in Sources */,
+				15C63C4D2B2952870098B210 /* RoundedRectangleModifier.swift in Sources */,
+				83E6EB232B38334D00AE3E2E /* NAriaContactCard_1.swift in Sources */,
+				83805DD62B34C7300007DFA7 /* ContactsList.swift in Sources */,
+				83E6EB122B3815CE00AE3E2E /* Strings.swift in Sources */,
+				8325628D2B3904130074E282 /* NAriaContact.swift in Sources */,
+				832562892B38FAE00074E282 /* NAriaContactProfile.swift in Sources */,
+				83E6EB102B38112500AE3E2E /* NAriaNav.swift in Sources */,
+				83E6EB1B2B382C6A00AE3E2E /* NAriaList.swift in Sources */,
+				832562932B3946E10074E282 /* NAriaContact_1.swift in Sources */,
+				0FA63BDA2B29333D00EC119F /* App.swift in Sources */,
+				8325628F2B393D2B0074E282 /* NAriaSheet.swift in Sources */,
+				832562912B393DF60074E282 /* NAriaCTA.swift in Sources */,
+				832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */,
+				83E6EB0C2B37F3DF00AE3E2E /* NavigationLinkStyle.swift in Sources */,
+				83E6EB0E2B38030700AE3E2E /* NAriaNavItem.swift in Sources */,
+				0FA63BEA2B29344D00EC119F /* NAriaTextField.swift in Sources */,
+				83E6EB082B37E2BD00AE3E2E /* Color.swift in Sources */,
+				83805DCF2B34B56E0007DFA7 /* NAriaContactCard.swift in Sources */,
+				83E6EB202B38304900AE3E2E /* NAriaTextField_1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A7E2F62B38A0E8003577CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A7E2FF2B38A0E8003577CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA63BD52B29333D00EC119F /* N-ARIA */;
+			targetProxy = 83A7E2FE2B38A0E8003577CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FA63BE22B29334100EC119F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FA63BE32B29334100EC119F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FA63BE52B29334100EC119F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = U22HFYM92Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FA63BE62B29334100EC119F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = U22HFYM92Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83A7E30D2B38A0E8003577CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U22HFYM92Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/N-ARIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/N-ARIA";
+			};
+			name = Debug;
+		};
+		83A7E30E2B38A0E8003577CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U22HFYM92Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/N-ARIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/N-ARIA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA63BD12B29333D00EC119F /* Build configuration list for PBXProject "N-ARIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA63BE22B29334100EC119F /* Debug */,
+				0FA63BE32B29334100EC119F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA63BE42B29334100EC119F /* Build configuration list for PBXNativeTarget "N-ARIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA63BE52B29334100EC119F /* Debug */,
+				0FA63BE62B29334100EC119F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A7E30C2B38A0E8003577CF /* Build configuration list for PBXNativeTarget "N-ARIATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A7E30D2B38A0E8003577CF /* Debug */,
+				83A7E30E2B38A0E8003577CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FA63BCE2B29333D00EC119F /* Project object */;
+}
