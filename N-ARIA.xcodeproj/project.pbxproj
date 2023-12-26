@@ -146,6 +146,7 @@
 		0FA63BE82B29342500EC119F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				83E6EB212B38325900AE3E2E /* AntiPatterns */,
 				832562832B38E9BE0074E282 /* Icons */,
 				0FA63BE92B29344D00EC119F /* NAriaTextField.swift */,
 				83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */,
@@ -221,7 +222,6 @@
 			children = (
 				83805DD22B34B6940007DFA7 /* Types */,
 				0FA63BE82B29342500EC119F /* Components */,
-				83E6EB212B38325900AE3E2E /* AntiPatterns */,
 				0FA63BE72B29335A00EC119F /* Styles */,
 				15C63C4E2B295D050098B210 /* Modifiers */,
 				83E6EB172B38279600AE3E2E /* Experiences */,
@@ -241,9 +241,9 @@
 		83E6EB212B38325900AE3E2E /* AntiPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				83E6EB1F2B38304900AE3E2E /* NAriaTextField_1.swift */,
-				83E6EB222B38334D00AE3E2E /* NAriaContactCard_1.swift */,
 				832562922B3946E10074E282 /* NAriaContact_1.swift */,
+				83E6EB222B38334D00AE3E2E /* NAriaContactCard_1.swift */,
+				83E6EB1F2B38304900AE3E2E /* NAriaTextField_1.swift */,
 			);
 			path = AntiPatterns;
 			sourceTree = "<group>";
