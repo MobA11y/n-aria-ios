@@ -38,16 +38,6 @@
 		83E6EB232B38334D00AE3E2E /* NAriaContactCard_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB222B38334D00AE3E2E /* NAriaContactCard_1.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		83A7E2FE2B38A0E8003577CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA63BCE2B29333D00EC119F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FA63BD52B29333D00EC119F;
-			remoteInfo = NARIA;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		83A7E30B2B38A0E8003577CF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -81,7 +71,6 @@
 		83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContactCard.swift; sourceTree = "<group>"; };
 		83805DD32B34B6AE0007DFA7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		83805DD52B34C7300007DFA7 /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
-		83A7E2FA2B38A0E8003577CF /* N-ARIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-ARIATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		83E6EB072B37E2BD00AE3E2E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaListIcon.swift; sourceTree = "<group>"; };
@@ -98,13 +87,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0FA63BD32B29333D00EC119F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83A7E2F72B38A0E8003577CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				0FA63BD62B29333D00EC119F /* N-ARIA.app */,
-				83A7E2FA2B38A0E8003577CF /* N-ARIATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,24 +250,6 @@
 			productReference = 0FA63BD62B29333D00EC119F /* N-ARIA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83A7E2F92B38A0E8003577CF /* N-ARIATests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83A7E30C2B38A0E8003577CF /* Build configuration list for PBXNativeTarget "N-ARIATests" */;
-			buildPhases = (
-				83A7E2F62B38A0E8003577CF /* Sources */,
-				83A7E2F72B38A0E8003577CF /* Frameworks */,
-				83A7E2F82B38A0E8003577CF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83A7E2FF2B38A0E8003577CF /* PBXTargetDependency */,
-			);
-			name = "N-ARIATests";
-			productName = "N-ARIATests";
-			productReference = 83A7E2FA2B38A0E8003577CF /* N-ARIATests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -299,10 +262,6 @@
 				TargetAttributes = {
 					0FA63BD52B29333D00EC119F = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					83A7E2F92B38A0E8003577CF = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 0FA63BD52B29333D00EC119F;
 					};
 				};
 			};
@@ -321,7 +280,6 @@
 			projectRoot = "";
 			targets = (
 				0FA63BD52B29333D00EC119F /* N-ARIA */,
-				83A7E2F92B38A0E8003577CF /* N-ARIATests */,
 			);
 		};
 /* End PBXProject section */
@@ -333,13 +291,6 @@
 			files = (
 				0FA63BDE2B29334100EC119F /* Assets.xcassets in Resources */,
 				83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83A7E2F82B38A0E8003577CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,22 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A7E2F62B38A0E8003577CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		83A7E2FF2B38A0E8003577CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FA63BD52B29333D00EC119F /* N-ARIA */;
-			targetProxy = 83A7E2FE2B38A0E8003577CF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0FA63BE22B29334100EC119F /* Debug */ = {
@@ -528,6 +464,7 @@
 				DEVELOPMENT_TEAM = U22HFYM92Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -557,6 +494,7 @@
 				DEVELOPMENT_TEAM = U22HFYM92Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -572,40 +510,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		83A7E30D2B38A0E8003577CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U22HFYM92Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/N-ARIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/N-ARIA";
-			};
-			name = Debug;
-		};
-		83A7E30E2B38A0E8003577CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U22HFYM92Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/N-ARIA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/N-ARIA";
 			};
 			name = Release;
 		};
@@ -626,15 +530,6 @@
 			buildConfigurations = (
 				0FA63BE52B29334100EC119F /* Debug */,
 				0FA63BE62B29334100EC119F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83A7E30C2B38A0E8003577CF /* Build configuration list for PBXNativeTarget "N-ARIATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83A7E30D2B38A0E8003577CF /* Debug */,
-				83A7E30E2B38A0E8003577CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
