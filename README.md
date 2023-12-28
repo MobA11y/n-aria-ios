@@ -1,5 +1,5 @@
 #  Welcome to N-ARIA (BETA)
-The Native ARIA (N-NARIA) Design System is built with one goal in mind... helping development teams communicate accurately about assistive technology users. 
+The Native ARIA (N-NARIA) Design System is built with one goal in mind... helping development teams communicate accurately about iOS platform accessibility settings. 
 
 When development teams have conversations about user experience they frequently miscommunicate. These miscommunications are particulalry damaging for users with disabilities as what makes a positive experience isn't commonly understood. Assistive Technology (AT) users rely on consistent structure to navigate and understand applications. 
 
