@@ -13,6 +13,7 @@
 		0FA63BEA2B29344D00EC119F /* NAriaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BE92B29344D00EC119F /* NAriaTextField.swift */; };
 		0FA63BEC2B29372800EC119F /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BEB2B29372800EC119F /* TextFieldStyle.swift */; };
 		15C63C4D2B2952870098B210 /* RoundedRectangleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */; };
+		831FAB2C2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */; };
 		832562822B38E7B70074E282 /* NAriaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562812B38E7B70074E282 /* NAriaIcon.swift */; };
 		832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562862B38F47C0074E282 /* NAriaProfileIcon.swift */; };
 		832562892B38FAE00074E282 /* NAriaContactProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562882B38FAE00074E282 /* NAriaContactProfile.swift */; };
@@ -38,6 +39,16 @@
 		83E6EB232B38334D00AE3E2E /* NAriaContactCard_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB222B38334D00AE3E2E /* NAriaContactCard_1.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		831FAB2D2B3BB52000A8A507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA63BCE2B29333D00EC119F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA63BD52B29333D00EC119F;
+			remoteInfo = "N-ARIA";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		83A7E30B2B38A0E8003577CF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,6 +70,8 @@
 		0FA63BE92B29344D00EC119F /* NAriaTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaTextField.swift; sourceTree = "<group>"; };
 		0FA63BEB2B29372800EC119F /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleModifier.swift; sourceTree = "<group>"; };
+		831FAB272B3BB52000A8A507 /* N-ARIA-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-ARIA-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_ARIA_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		832562812B38E7B70074E282 /* NAriaIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaIcon.swift; sourceTree = "<group>"; };
 		832562862B38F47C0074E282 /* NAriaProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaProfileIcon.swift; sourceTree = "<group>"; };
 		832562882B38FAE00074E282 /* NAriaContactProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContactProfile.swift; sourceTree = "<group>"; };
@@ -93,6 +106,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		831FAB242B3BB52000A8A507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +121,7 @@
 			children = (
 				835109C82B38C80500072121 /* Application */,
 				83A7E2F22B38A0E8003577CF /* Library */,
+				831FAB282B3BB52000A8A507 /* N-ARIA-UITests */,
 				0FA63BD72B29333D00EC119F /* Products */,
 				8325627D2B38D22A0074E282 /* Frameworks */,
 				832562942B3A80A20074E282 /* README.md */,
@@ -111,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				0FA63BD62B29333D00EC119F /* N-ARIA.app */,
+				831FAB272B3BB52000A8A507 /* N-ARIA-UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +180,14 @@
 				15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		831FAB282B3BB52000A8A507 /* N-ARIA-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */,
+			);
+			path = "N-ARIA-UITests";
 			sourceTree = "<group>";
 		};
 		8325627D2B38D22A0074E282 /* Frameworks */ = {
@@ -250,6 +280,24 @@
 			productReference = 0FA63BD62B29333D00EC119F /* N-ARIA.app */;
 			productType = "com.apple.product-type.application";
 		};
+		831FAB262B3BB52000A8A507 /* N-ARIA-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831FAB2F2B3BB52000A8A507 /* Build configuration list for PBXNativeTarget "N-ARIA-UITests" */;
+			buildPhases = (
+				831FAB232B3BB52000A8A507 /* Sources */,
+				831FAB242B3BB52000A8A507 /* Frameworks */,
+				831FAB252B3BB52000A8A507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831FAB2E2B3BB52000A8A507 /* PBXTargetDependency */,
+			);
+			name = "N-ARIA-UITests";
+			productName = "N-ARIA-UITests";
+			productReference = 831FAB272B3BB52000A8A507 /* N-ARIA-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,6 +310,10 @@
 				TargetAttributes = {
 					0FA63BD52B29333D00EC119F = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					831FAB262B3BB52000A8A507 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0FA63BD52B29333D00EC119F;
 					};
 				};
 			};
@@ -280,6 +332,7 @@
 			projectRoot = "";
 			targets = (
 				0FA63BD52B29333D00EC119F /* N-ARIA */,
+				831FAB262B3BB52000A8A507 /* N-ARIA-UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +344,13 @@
 			files = (
 				0FA63BDE2B29334100EC119F /* Assets.xcassets in Resources */,
 				83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831FAB252B3BB52000A8A507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +391,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		831FAB232B3BB52000A8A507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831FAB2C2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		831FAB2E2B3BB52000A8A507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA63BD52B29333D00EC119F /* N-ARIA */;
+			targetProxy = 831FAB2D2B3BB52000A8A507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0FA63BE22B29334100EC119F /* Debug */ = {
@@ -513,6 +589,40 @@
 			};
 			name = Release;
 		};
+		831FAB302B3BB52000A8A507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U22HFYM92Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIA-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "N-ARIA";
+			};
+			name = Debug;
+		};
+		831FAB312B3BB52000A8A507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U22HFYM92Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.N-ARIA-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "N-ARIA";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -530,6 +640,15 @@
 			buildConfigurations = (
 				0FA63BE52B29334100EC119F /* Debug */,
 				0FA63BE62B29334100EC119F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831FAB2F2B3BB52000A8A507 /* Build configuration list for PBXNativeTarget "N-ARIA-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831FAB302B3BB52000A8A507 /* Debug */,
+				831FAB312B3BB52000A8A507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

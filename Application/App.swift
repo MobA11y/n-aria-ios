@@ -30,7 +30,7 @@ struct MainContent: View {
 						image: "Icon-Contacts",
 						label: "Contact Card",
 						shouldAutoLayout: false
-					)
+					).accessibilityIdentifier("contact-card")
 				} destination: {
 					ContactsList()
 				}
