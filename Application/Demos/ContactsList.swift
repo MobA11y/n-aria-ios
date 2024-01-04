@@ -10,40 +10,41 @@ import SwiftUI
 struct ContactsList: View {
 	
 	var contacts: [Contact] = Data.contacts
-	
+
 	@FocusState var focusState: Bool
 	
 	var body: some View {
 		
 		VStack {
-			NAriaList {
-				NAriaSection(header: "Interactive") {
-					NAriaContact(contact: contacts.first!)
-							.foregroundStyle(
-								Color.primary,
-								Color.accentColor
-							)
+			NariaTabView {
+				NAriaTab {
+					ContactsListPatterns()
+				} tabItem: {
+					Label("Patterns",systemImage: "accessibility")
 				}
-				
-				NAriaSection(header: "Informative") {
-					
-					let contact = contacts.last!
-					
-					NAriaContactCard(
-						contact: contact,
-						iconDescription: contact.profileImageDescription)
-							.foregroundStyle(
-								Color.primary,
-								Color.accentColor
-							)
+				NAriaTab {
+					ContactsListBugs()
+				} tabItem: {
+					Label("Bugs",systemImage: "exclamationmark.triangle")
 				}
-								
-				ContactsListAntiPatterns()
 			}
-			
 		}.navigationTitle("Contacts")
 	}
 }
+
+struct NAriaTab<Content:View, Tab:View>: View {
+	
+	@ViewBuilder var content: () -> Content
+	
+	@ViewBuilder var tabItem: () -> Tab
+
+	var body: some View {
+		ZStack(content:content).tabItem {
+			ZStack(content:tabItem)
+		}
+	}
+}
+
 
 struct ContactsListDemoPreview: PreviewProvider {
 	static var previews: some View {
@@ -51,29 +52,39 @@ struct ContactsListDemoPreview: PreviewProvider {
 	}
 }
 
-struct ContactsListAntiPatterns : View {
+struct ContactsListPatterns: View {
+	
 	var body: some View {
-		
-		NAriaSection(header: "Anti Patterns") {
-			NAriaNavItem {
-				NAriaListIcon(image: "Icon-TextField", label: "1.3.1 Violation")
-			} destination: {
-				VStack {
-					
-					NAriaList {
-						
-						NAriaSection(header: "Interactive") {
-							ForEach(Data.contacts) { contact in
-								NAriaContact_1(contact: contact)
-							}
-						}
-						
-						NAriaSection(header: "Informative") {
-							ForEach(Data.contacts) { contact in
-								NAriaContactCard_1(contact: contact)
-							}
-						}
-					}.navigationTitle("Violation")
+		NAriaList {
+			NAriaSection(header: "Interactive") {
+				ForEach(Data.contacts) { contact in
+					NAriaContact(contact: contact)
+				}
+			}
+			
+			NAriaSection(header: "Informative") {
+				ForEach(Data.contacts) { contact in
+					NAriaContactCard(contact: contact)
+				}
+			}
+		}
+	}
+}
+
+struct ContactsListBugs : View {
+	
+	var body: some View {
+		NAriaList {
+			
+			NAriaSection(header: "Interactive") {
+				ForEach(Data.contacts) { contact in
+					NAriaContact_1(contact: contact)
+				}
+			}
+			
+			NAriaSection(header: "Informative") {
+				ForEach(Data.contacts) { contact in
+					NAriaContactCard_1(contact: contact)
 				}
 			}
 		}

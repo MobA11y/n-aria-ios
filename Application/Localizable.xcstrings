@@ -15,6 +15,9 @@
         }
       }
     },
+    "Bugs" : {
+
+    },
     "Chris-Affiliation" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -198,6 +201,9 @@
           }
         }
       }
+    },
+    "Patterns" : {
+
     },
     "Profile" : {
       "comment" : "Description of the image in a proifle icon."

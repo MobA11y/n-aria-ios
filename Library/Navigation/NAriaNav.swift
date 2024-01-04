@@ -34,7 +34,7 @@ struct NAriaNav<Content: View> : View {
 		NAriaSection(
 			header: Strings.componentsHeader()
 		) {
-			NAriaNavItem {
+			NAriaNavigationLink {
 				NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 			} destination: {
 				SimpleForm()

@@ -40,7 +40,7 @@ struct SimpleFormAntiPatterns : View {
 	var body: some View {
 		
 		NAriaSection(header: "Anti Patterns") {
-			NAriaNavItem {
+			NAriaNavigationLink {
 				NAriaListIcon(image: "Icon-TextField", label: "1.3.1 Violation")
 			} destination: {
 				VStack {

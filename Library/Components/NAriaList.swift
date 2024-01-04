@@ -18,9 +18,7 @@ struct NAriaList<Content:View> : View {
 
 #Preview {
 	NAriaList {
-		
 		NAriaSection(header: "A Section") {
-					
 			NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 		}
 	}

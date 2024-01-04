@@ -21,11 +21,12 @@ struct MainContent: View {
 	@ScaledMetric(relativeTo:.body) var size = 20
 
 	var body: some View {
+		
 		NAriaNav(title: Strings.appName()) {
 			
 			NAriaSection(header: Strings.componentsHeader()) {
 				
-				NAriaNavItem {
+				NAriaNavigationLink {
 					NAriaListIcon(
 						image: "Icon-Contacts",
 						label: "Contact Card",
@@ -35,7 +36,7 @@ struct MainContent: View {
 					ContactsList()
 				}
 				
-				NAriaNavItem {
+				NAriaNavigationLink {
 					NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 				} destination: {
 					SimpleForm()
@@ -43,7 +44,7 @@ struct MainContent: View {
 			}
 			
 			NAriaSection(header: Strings.demosHeader()) {
-				NAriaNavItem {
+				NAriaNavigationLink {
 					NAriaListIcon(image: "Icon-TextField", label: "Simple Form")
 				} destination: {
 					SimpleForm()
