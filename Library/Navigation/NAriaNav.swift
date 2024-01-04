@@ -17,20 +17,22 @@ struct NAriaNav<Content: View> : View {
 	@ViewBuilder var content: () -> Content
 	
 	var body: some View {
+		
 		NavigationStack {
-			List(content:content)
+						
+			NAriaList(content:content)
 				.navigationTitle(title)
 				.navigationBarTitleDisplayMode(.inline)
+
 		}
 	}
-
 }
 
 #Preview{
 	NAriaNav(title: Strings.appName()) {
 		
 		@ScaledMetric(relativeTo:.headline) var size = 40
-
+		
 		NAriaSection(
 			header: Strings.componentsHeader()
 		) {

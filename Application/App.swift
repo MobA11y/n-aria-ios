@@ -11,7 +11,9 @@ import SwiftUI
 	
 	var body: some Scene {
 		WindowGroup {
-			MainContent()
+			ZStack {
+				MainContent()
+			}
 		}
 	}
 }
@@ -19,7 +21,7 @@ import SwiftUI
 struct MainContent: View {
 	
 	@ScaledMetric(relativeTo:.body) var size = 20
-
+	
 	var body: some View {
 		
 		NAriaNav(title: Strings.appName()) {
@@ -55,5 +57,7 @@ struct MainContent: View {
 }
 
 #Preview {
-	MainContent()
+	ZStack {
+		MainContent()
+	}
 }

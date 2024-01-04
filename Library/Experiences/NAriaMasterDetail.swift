@@ -14,11 +14,7 @@ struct NAriaMasterDetail<Master:View, Detail:View> : View {
 	var detail: () -> Detail
 		
 	var body: some View {
-		NavigationLink {
-			ZStack(content:detail)
-		} label: {
-			ZStack(content:master)
-		}
+		NAriaNavigationLink(label: master, destination: detail)
 	}
 }
 

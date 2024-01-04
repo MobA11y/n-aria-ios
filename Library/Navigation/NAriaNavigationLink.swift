@@ -9,9 +9,9 @@ import SwiftUI
 
 struct NAriaNavigationLink<Content: View, Destination: View> : View {
 	
-	var label: () -> Content
+	@ViewBuilder var label: () -> Content
 	
-	var destination: () -> Destination
+	@ViewBuilder var destination: () -> Destination
 	
 	var iconColor = Color.brandAccent
 	

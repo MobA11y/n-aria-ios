@@ -35,7 +35,8 @@ final class N_ARIA_UITestsLaunchTests: XCTestCase {
 		
 		XCTAssert(app.staticTexts["N-ARIA"].waitForExistence(timeout: 2))
 		app.buttons["Contact Card"].tap()
-						XCTAssert(app.staticTexts["Contacts"].waitForExistence(timeout: 2))
+		
+		XCTAssert(app.staticTexts["Contacts"].waitForExistence(timeout: 2))
 		uploadSnapshot(name:"contacts", expectation: expectation)
 		waitForExpectations(timeout: 5)
 	}

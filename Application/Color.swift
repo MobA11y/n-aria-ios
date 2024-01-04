@@ -10,4 +10,5 @@ import SwiftUI
 extension Color {
 
 	static let brandAccent = Color("AccentColor")
+	static let brandBackground = Color("BackgroundColor")
 }

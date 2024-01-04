@@ -29,6 +29,8 @@ struct SimpleForm: View {
         )
       }
     }.navigationTitle("Simple Form")
+			.scrollContentBackground(.hidden)
+			.background(Color.brandBackground)
   }
 }
 
