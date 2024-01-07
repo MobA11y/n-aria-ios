@@ -39,7 +39,7 @@ struct NAriaContactProfile: View {
 				
 				Spacer()
 			}
-		}.background(Color.brandBackground)
+		}
 	}
 }
 

@@ -11,7 +11,7 @@ struct NAriaTextField: View {
   /**
    Represents a concept similar to the Name from WCAG's Name, Role, and Value.
    */
-  var label: String
+  var label: String = "Name"
   
   /**
    The field must be filled out for its value to be valid.

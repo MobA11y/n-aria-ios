@@ -75,6 +75,7 @@
       }
     },
     "Chris-ImageDesription" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -123,6 +124,9 @@
       }
     },
     "Contacts" : {
+
+    },
+    "Design System" : {
 
     },
     "Experiences" : {
@@ -202,14 +206,14 @@
         }
       }
     },
+    "NAriaTextField" : {
+
+    },
     "Patterns" : {
 
     },
     "Profile" : {
       "comment" : "Description of the image in a proifle icon."
-    },
-    "ProfileIconDescription" : {
-
     },
     "Required" : {
 
@@ -221,6 +225,9 @@
 
     },
     "Valid" : {
+
+    },
+    "View Profile" : {
 
     },
     "Violation" : {

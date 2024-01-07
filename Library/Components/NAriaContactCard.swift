@@ -11,7 +11,7 @@ struct NAriaContactCard: View {
 	
 	var contact: Contact
 	
-	var iconDescription: String = NSLocalizedString("ProfileIconDescription", comment: "")
+	var iconDescription: String = NSLocalizedString("View Profile", comment: "")
 	
 	@Environment(\.dynamicTypeSize) var dynamicTypeSize
 	
@@ -31,35 +31,29 @@ struct NAriaContactCard: View {
 			VStack(alignment: .leading) {
 				
 				Text(contact.name)
+					.foregroundStyle(Color.primary)
 					.font(.headline)
 					.frame(maxWidth: .infinity, alignment: alignment)
 					.multilineTextAlignment(textAlign)
 				
 				Text(contact.comment)
+					.foregroundStyle(Color.primary)
 					.font(.subheadline)
 					.frame(maxWidth: .infinity, alignment: alignment)
 					.multilineTextAlignment(textAlign)
 				
 				Text(contact.affiliation)
+					.foregroundStyle(Color.primary)
 					.font(.subheadline)
 					.frame(maxWidth: .infinity, alignment: alignment)
 					.multilineTextAlignment(.center)
 				
 			}.accessibilityElement(children: .combine)
-				.accessibilityInputLabels([contact.name, iconDescription])
+				.accessibilityInputLabels([contact.name])
 		}
 	}
 }
 
 #Preview {
-	NAriaContactCard(
-		contact: Contact(
-			name: "Chris McMeeking",
-			affiliation: "HAi1Y",
-			comment:"SwiftUI is fun! Let's make this a little longer.",
-			details: "Nope, boring!",
-			profileImage: "Chris",
-			profileImageDescription: NSLocalizedString("Chris-ImageDesription",comment: "")
-		)
-	)
+	NAriaContacts(list:Data.contacts)
 }

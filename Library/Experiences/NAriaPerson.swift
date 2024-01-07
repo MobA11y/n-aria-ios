@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SimpleForm: View {
+struct NAriaPerson: View {
     
   @FocusState var focusState: Bool
   
@@ -29,13 +29,11 @@ struct SimpleForm: View {
         )
       }
     }.navigationTitle("Simple Form")
-			.scrollContentBackground(.hidden)
-			.background(Color.brandBackground)
   }
 }
 
 #Preview {
-	SimpleForm()
+	NAriaPerson()
 }
 
 struct SimpleFormAntiPatterns : View {

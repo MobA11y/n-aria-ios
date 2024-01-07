@@ -11,8 +11,10 @@ struct NAriaList<Content:View> : View {
 	
 	@ViewBuilder var content: () -> Content
 	
+	@ScaledMetric(relativeTo:.body) var spacing = 8
+	
 	var body: some View {
-		List(content: content).scrollContentBackground(.hidden).background(Color.brandBackground)
+		List(content: content).listRowSpacing(spacing)
 	}
 }
 

@@ -19,7 +19,6 @@ struct NAriaCTA : View {
 				.frame(maxWidth: .infinity)
 				.padding(4)
 				.background(Color.accentColor)
-				.foregroundStyle(Color.background, Color.background)
 				.buttonStyle(.borderedProminent)
 				.clipShape(RoundedRectangle(cornerSize: CGSize(width: 20, height: 20)))
 				

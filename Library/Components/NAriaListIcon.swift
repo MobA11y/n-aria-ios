@@ -17,6 +17,12 @@ struct NAriaListIcon: View {
 	
 	var shouldAutoLayout = false
 	
+	func identifier() -> String {
+		return label.lowercased()
+			.trimmingCharacters(in: .whitespaces)
+			.replacingOccurrences(of: " ", with: "-")
+	}
+	
 	@ScaledMetric(wrappedValue: 20, relativeTo: .body) var size
 	
 	var body: some View {
@@ -24,13 +30,17 @@ struct NAriaListIcon: View {
 		HStack(alignment: .center) {
 			
 			NAriaIcon(shouldAutoLayout: shouldAutoLayout) {
-				Image(image)
-					.resizable()
+				
+				Image(systemName: image).resizable()
 					.aspectRatio(contentMode: .fit)
 					.frame(width: size, height: size, alignment: .center)
 					.accessibilityLabel(imageDescription)
+				
 			} label: {
+				
 				Text(label).font(.body)
+					.accessibilityIdentifier(identifier())
+				
 			}
 		}
 	}
@@ -39,7 +49,6 @@ struct NAriaListIcon: View {
 #Preview {
 	
 	VStack{
-		NAriaListIcon(image: "Icon-TextField", label:"TextField")
-		NAriaListIcon(image: "Icon-TextField", label:"")
+		NAriaListIcon(image: "character.textbox", label:"TextField")
 	}
 }

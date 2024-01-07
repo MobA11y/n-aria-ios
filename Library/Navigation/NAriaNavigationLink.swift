@@ -13,15 +13,20 @@ struct NAriaNavigationLink<Content: View, Destination: View> : View {
 	
 	@ViewBuilder var destination: () -> Destination
 	
-	var iconColor = Color.brandAccent
+	var iconColor = Color.brandAccentColor
 	
-	var arrowColor = Color.brandAccent
+	var arrowColor = Color.brandAccentColor
 
 	var body: some View {
 		
 		NavigationLink(
 			destination: destination,
 			label: label
-		).foregroundStyle(iconColor, Color.brandAccent)
+		).foregroundStyle(iconColor, Color.brandAccentColor)
+			.listRowBackground(
+				RoundedRectangle(cornerRadius: 10)
+					.fill(Color.brandActiveColor)
+					.stroke(Color.brandAccentColor, lineWidth: 4)
+			)
 	}
 }

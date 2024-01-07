@@ -21,13 +21,13 @@ final class N_ARIA_UITestsLaunchTests: XCTestCase {
 	func testLaunch() throws {
 			
 		XCTAssert(app.staticTexts["N-ARIA"].waitForExistence(timeout: 2))
-		uploadSnapshot(name:"Home")
+		uploadSnapshot(name:"n-aria")
 	}
 	
 	func testContacts() throws {
 		
 		XCTAssert(app.staticTexts["N-ARIA"].waitForExistence(timeout: 2))
-		app.buttons["Contact Card"].tap()
+		app.buttons["Contacts"].tap()
 		
 		XCTAssert(app.staticTexts["Contacts"].waitForExistence(timeout: 2))
 		uploadSnapshot(name:"contacts")
@@ -36,7 +36,7 @@ final class N_ARIA_UITestsLaunchTests: XCTestCase {
 	func testContactsBugs() throws {
 		
 		XCTAssert(app.staticTexts["N-ARIA"].waitForExistence(timeout: 2))
-		app.buttons["Contact Card"].tap()
+		app.buttons["Contacts"].tap()
 		
 		XCTAssert(app.staticTexts["Contacts"].waitForExistence(timeout: 2))
 		app.buttons["Bugs"].tap()
@@ -45,12 +45,30 @@ final class N_ARIA_UITestsLaunchTests: XCTestCase {
 		uploadSnapshot(name:"contacts-bugs")
 	}
 	
-	override func tearDown() {
-		screenShot()
-		snapShot()
+	func testContactsDetails() throws {
+		
+		XCTAssert(app.staticTexts["N-ARIA"].waitForExistence(timeout: 2))
+		app.buttons["Contacts"].tap()
+				
+		XCTAssert(app.staticTexts["Chris McMeeking"].waitForExistence(timeout: 2))
+		app.buttons["Chris McMeeking"].tap()
+		
+		XCTAssert(app.staticTexts["Chris McMeeking"].waitForExistence(timeout: 2))
+		uploadSnapshot(name:"contacts-details")
 	}
 	
+	func testForm() throws {
 		
+		XCTAssert(app.staticTexts["N-ARIA"].waitForExistence(timeout: 2))
+		app.buttons["Form"].tap()
+		
+		XCTAssert(app.staticTexts["Simple Form"].waitForExistence(timeout: 2))
+	
+		uploadSnapshot(name:"form")
+	}
+	
+	override func tearDown() { }
+	
 	func uploadSnapshot(name:String) {
 		
 		let expectation: XCTestExpectation = self.expectation(description: "Requests complete.")
@@ -60,7 +78,7 @@ final class N_ARIA_UITestsLaunchTests: XCTestCase {
 			let dictionary = try app.snapshot().dictionaryRepresentation
 			let jsonData = try JSONSerialization.data(withJSONObject: dictionary)
 			var request = URLRequest(
-				url: URL(string: "http://localhost:420/n-aria/xc-snapshot/\(name)/tree")!
+				url: URL(string: "https://db.moba11y.com/n-aria/xc-snapshot/\(name)/tree")!
 			)
 			
 			request.httpMethod = "PUT"
@@ -93,7 +111,7 @@ final class N_ARIA_UITestsLaunchTests: XCTestCase {
 		
 		let dictionary = ["image": screenshot.pngRepresentation.base64EncodedString()]
 		let jsonData = try! JSONSerialization.data(withJSONObject: dictionary)
-		var request = URLRequest(url: URL(string: "http://localhost:420\(key)/image")!)
+		var request = URLRequest(url: URL(string: "https://db.moba11y.com\(key)/image")!)
 				
 		request.httpMethod = "PUT"
 		request.setValue("\(String(describing: request.httpBody?.count))", forHTTPHeaderField: "Content-Length")
