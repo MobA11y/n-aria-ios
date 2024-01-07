@@ -24,10 +24,10 @@ enum Collections: String, CaseIterable, Hashable {
 	}
 }
 
-class NAriaFlow: ObservableObject {
+class Nav: ObservableObject {
 	
 	
-	static let shared = NAriaFlow()
+	static let shared = Nav()
 	
 	@Published var path = NavigationPath()
 	
@@ -35,48 +35,21 @@ class NAriaFlow: ObservableObject {
 		path = .init()
 	}
 	
-	func navigateBackToRoot() {
+	func navigateHome() {
 		path.removeLast(path.count)
 	}
 	
-	func backToPrevious() {
+	func navigateBack() {
 		path.removeLast()
 	}
 	
 	func navigateTo(_ destination:Collections) {
 		path.append(destination)
 	}
-	
-	func done() {
-		path = .init()
-	}
-}
-
-
-struct NAriaApplication<Content: View> : View {
-	
-	@EnvironmentObject var navigation: NAriaFlow
-
-	/**
-	 The navigation title.
-	 */
-	let title: String
-	
-	@ViewBuilder var content: () -> Content
-	
-	var body: some View {
-		
-		NavigationStack(path:$navigation.path) {
-			ZStack(content:content)
-				.navigationTitle(title)
-				.navigationBarTitleDisplayMode(.inline)				
-			Spacer()
-		}
-	}
 }
 
 #Preview{
-	NAriaApplication(title: Strings.appName()) {
+	NAriaApp(title: Strings.appName()) {
 		
 		@ScaledMetric(relativeTo:.headline) var size = 40
 		
@@ -85,7 +58,7 @@ struct NAriaApplication<Content: View> : View {
 				header: Strings.componentsHeader()
 			) {
 				NAriaNavigationLink {
-					NAriaListIcon(image: "Icon-TextField", label: "Text Field")
+					NAriaListItem(image: "Icon-TextField", label: "Text Field")
 				} destination: {
 					NAriaPerson()
 				}

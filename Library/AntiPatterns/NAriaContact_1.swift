@@ -12,7 +12,7 @@ struct NAriaContact_1 : View {
 		NAriaMasterDetail {
 			NAriaContactCard_1(contact: contact)
 		} detail: {
-			NAriaContactProfile(contact:contact)
+			NAriaContact(contact:contact)
 		}
 	}
 }

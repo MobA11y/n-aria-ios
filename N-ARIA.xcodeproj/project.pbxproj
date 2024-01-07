@@ -13,10 +13,13 @@
 		0FA63BEA2B29344D00EC119F /* NAriaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BE92B29344D00EC119F /* NAriaTextField.swift */; };
 		0FA63BEC2B29372800EC119F /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA63BEB2B29372800EC119F /* TextFieldStyle.swift */; };
 		15C63C4D2B2952870098B210 /* RoundedRectangleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */; };
+		8306E1802B4A88D80003A326 /* NAriaHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E17F2B4A88D80003A326 /* NAriaHeadline.swift */; };
+		8306E1822B4A89010003A326 /* NAriaSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E1812B4A89010003A326 /* NAriaSubtitle.swift */; };
+		8306E1842B4A893C0003A326 /* NAriaBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E1832B4A893C0003A326 /* NAriaBox.swift */; };
 		831FAB2C2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */; };
 		832562822B38E7B70074E282 /* NAriaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562812B38E7B70074E282 /* NAriaIcon.swift */; };
 		832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562862B38F47C0074E282 /* NAriaProfileIcon.swift */; };
-		832562892B38FAE00074E282 /* NAriaContactProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562882B38FAE00074E282 /* NAriaContactProfile.swift */; };
+		832562892B38FAE00074E282 /* NAriaProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562882B38FAE00074E282 /* NAriaProfile.swift */; };
 		8325628B2B3902A10074E282 /* NAriaMasterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325628A2B3902A10074E282 /* NAriaMasterDetail.swift */; };
 		8325628D2B3904130074E282 /* NAriaContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325628C2B3904130074E282 /* NAriaContact.swift */; };
 		8325628F2B393D2B0074E282 /* NAriaSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325628E2B393D2B0074E282 /* NAriaSheet.swift */; };
@@ -30,10 +33,10 @@
 		83BDEB6C2B43DE110055F342 /* NariaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BDEB6B2B43DE110055F342 /* NariaApp.swift */; };
 		83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */; };
 		83E6EB082B37E2BD00AE3E2E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB072B37E2BD00AE3E2E /* Color.swift */; };
-		83E6EB0A2B37EB1C00AE3E2E /* NAriaListIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */; };
+		83E6EB0A2B37EB1C00AE3E2E /* NAriaListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB092B37EB1C00AE3E2E /* NAriaListItem.swift */; };
 		83E6EB0C2B37F3DF00AE3E2E /* NavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB0B2B37F3DF00AE3E2E /* NavigationLinkStyle.swift */; };
 		83E6EB0E2B38030700AE3E2E /* NAriaNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB0D2B38030700AE3E2E /* NAriaNavigationLink.swift */; };
-		83E6EB102B38112500AE3E2E /* NAriaApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB0F2B38112500AE3E2E /* NAriaApplication.swift */; };
+		83E6EB102B38112500AE3E2E /* NAriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB0F2B38112500AE3E2E /* NAriaApp.swift */; };
 		83E6EB122B3815CE00AE3E2E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB112B3815CE00AE3E2E /* Strings.swift */; };
 		83E6EB142B381A4400AE3E2E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB132B381A4400AE3E2E /* Data.swift */; };
 		83E6EB1B2B382C6A00AE3E2E /* NAriaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB1A2B382C6A00AE3E2E /* NAriaList.swift */; };
@@ -74,11 +77,14 @@
 		0FA63BE92B29344D00EC119F /* NAriaTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaTextField.swift; sourceTree = "<group>"; };
 		0FA63BEB2B29372800EC119F /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		15C63C4C2B2952870098B210 /* RoundedRectangleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleModifier.swift; sourceTree = "<group>"; };
+		8306E17F2B4A88D80003A326 /* NAriaHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaHeadline.swift; sourceTree = "<group>"; };
+		8306E1812B4A89010003A326 /* NAriaSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaSubtitle.swift; sourceTree = "<group>"; };
+		8306E1832B4A893C0003A326 /* NAriaBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaBox.swift; sourceTree = "<group>"; };
 		831FAB272B3BB52000A8A507 /* N-ARIA-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-ARIA-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_ARIA_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		832562812B38E7B70074E282 /* NAriaIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaIcon.swift; sourceTree = "<group>"; };
 		832562862B38F47C0074E282 /* NAriaProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaProfileIcon.swift; sourceTree = "<group>"; };
-		832562882B38FAE00074E282 /* NAriaContactProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContactProfile.swift; sourceTree = "<group>"; };
+		832562882B38FAE00074E282 /* NAriaProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaProfile.swift; sourceTree = "<group>"; };
 		8325628A2B3902A10074E282 /* NAriaMasterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaMasterDetail.swift; sourceTree = "<group>"; };
 		8325628C2B3904130074E282 /* NAriaContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContact.swift; sourceTree = "<group>"; };
 		8325628E2B393D2B0074E282 /* NAriaSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaSheet.swift; sourceTree = "<group>"; };
@@ -93,10 +99,10 @@
 		83BDEB6B2B43DE110055F342 /* NariaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NariaApp.swift; sourceTree = "<group>"; };
 		83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		83E6EB072B37E2BD00AE3E2E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaListIcon.swift; sourceTree = "<group>"; };
+		83E6EB092B37EB1C00AE3E2E /* NAriaListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaListItem.swift; sourceTree = "<group>"; };
 		83E6EB0B2B37F3DF00AE3E2E /* NavigationLinkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkStyle.swift; sourceTree = "<group>"; };
 		83E6EB0D2B38030700AE3E2E /* NAriaNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaNavigationLink.swift; sourceTree = "<group>"; };
-		83E6EB0F2B38112500AE3E2E /* NAriaApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaApplication.swift; sourceTree = "<group>"; };
+		83E6EB0F2B38112500AE3E2E /* NAriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaApp.swift; sourceTree = "<group>"; };
 		83E6EB112B3815CE00AE3E2E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		83E6EB132B381A4400AE3E2E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		83E6EB1A2B382C6A00AE3E2E /* NAriaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaList.swift; sourceTree = "<group>"; };
@@ -157,16 +163,19 @@
 		0FA63BE82B29342500EC119F /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */,
-				832562832B38E9BE0074E282 /* Icons */,
-				0FA63BE92B29344D00EC119F /* NAriaTextField.swift */,
 				83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */,
-				832562882B38FAE00074E282 /* NAriaContactProfile.swift */,
-				83E6EB1A2B382C6A00AE3E2E /* NAriaList.swift */,
-				83E6EB1C2B382CE400AE3E2E /* NAriaSection.swift */,
-				832562812B38E7B70074E282 /* NAriaIcon.swift */,
-				8325628E2B393D2B0074E282 /* NAriaSheet.swift */,
 				832562902B393DF60074E282 /* NAriaCTA.swift */,
+				832562812B38E7B70074E282 /* NAriaIcon.swift */,
+				83E6EB1A2B382C6A00AE3E2E /* NAriaList.swift */,
+				83E6EB092B37EB1C00AE3E2E /* NAriaListItem.swift */,
+				832562882B38FAE00074E282 /* NAriaProfile.swift */,
+				832562862B38F47C0074E282 /* NAriaProfileIcon.swift */,
+				83E6EB1C2B382CE400AE3E2E /* NAriaSection.swift */,
+				8325628E2B393D2B0074E282 /* NAriaSheet.swift */,
+				0FA63BE92B29344D00EC119F /* NAriaTextField.swift */,
+				8306E17F2B4A88D80003A326 /* NAriaHeadline.swift */,
+				8306E1812B4A89010003A326 /* NAriaSubtitle.swift */,
+				8306E1832B4A893C0003A326 /* NAriaBox.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -192,14 +201,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		832562832B38E9BE0074E282 /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				832562862B38F47C0074E282 /* NAriaProfileIcon.swift */,
-			);
-			path = Icons;
 			sourceTree = "<group>";
 		};
 		835109C82B38C80500072121 /* Application */ = {
@@ -251,7 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				83E6EB0D2B38030700AE3E2E /* NAriaNavigationLink.swift */,
-				83E6EB0F2B38112500AE3E2E /* NAriaApplication.swift */,
+				83E6EB0F2B38112500AE3E2E /* NAriaApp.swift */,
 				83FD35A12B45D45400B2B561 /* NAriaTabView.swift */,
 				83A71DDF2B49BD47005BC7B6 /* NAriaTab.swift */,
 			);
@@ -386,7 +387,8 @@
 				83E6EB142B381A4400AE3E2E /* Data.swift in Sources */,
 				832562822B38E7B70074E282 /* NAriaIcon.swift in Sources */,
 				83805DD42B34B6AE0007DFA7 /* Contact.swift in Sources */,
-				83E6EB0A2B37EB1C00AE3E2E /* NAriaListIcon.swift in Sources */,
+				8306E1842B4A893C0003A326 /* NAriaBox.swift in Sources */,
+				83E6EB0A2B37EB1C00AE3E2E /* NAriaListItem.swift in Sources */,
 				83E6EB1D2B382CE400AE3E2E /* NAriaSection.swift in Sources */,
 				0FA63BEC2B29372800EC119F /* TextFieldStyle.swift in Sources */,
 				15C63C4D2B2952870098B210 /* RoundedRectangleModifier.swift in Sources */,
@@ -396,14 +398,16 @@
 				83FD35A22B45D45400B2B561 /* NAriaTabView.swift in Sources */,
 				83A71DE02B49BD47005BC7B6 /* NAriaTab.swift in Sources */,
 				8325628D2B3904130074E282 /* NAriaContact.swift in Sources */,
-				832562892B38FAE00074E282 /* NAriaContactProfile.swift in Sources */,
-				83E6EB102B38112500AE3E2E /* NAriaApplication.swift in Sources */,
+				832562892B38FAE00074E282 /* NAriaProfile.swift in Sources */,
+				83E6EB102B38112500AE3E2E /* NAriaApp.swift in Sources */,
 				83E6EB1B2B382C6A00AE3E2E /* NAriaList.swift in Sources */,
 				832562932B3946E10074E282 /* NAriaContact_1.swift in Sources */,
+				8306E1802B4A88D80003A326 /* NAriaHeadline.swift in Sources */,
 				0FA63BDA2B29333D00EC119F /* App.swift in Sources */,
 				8325628F2B393D2B0074E282 /* NAriaSheet.swift in Sources */,
 				832562912B393DF60074E282 /* NAriaCTA.swift in Sources */,
 				832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */,
+				8306E1822B4A89010003A326 /* NAriaSubtitle.swift in Sources */,
 				83BDEB6C2B43DE110055F342 /* NariaApp.swift in Sources */,
 				83E6EB0C2B37F3DF00AE3E2E /* NavigationLinkStyle.swift in Sources */,
 				83E6EB0E2B38030700AE3E2E /* NAriaNavigationLink.swift in Sources */,

@@ -15,7 +15,7 @@ struct NAriaContact : View {
 		NAriaMasterDetail {
 			NAriaContactCard(contact: contact)
 		} detail: {
-			NAriaContactProfile(contact:contact)
+			NAriaContact(contact:contact)
 		}.accessibilityIdentifier(contact.name)
 	}
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NAriaListIcon: View {
+struct NAriaListItem: View {
 	
 	var image: String
 	
@@ -49,6 +49,6 @@ struct NAriaListIcon: View {
 #Preview {
 	
 	VStack{
-		NAriaListIcon(image: "character.textbox", label:"TextField")
+		NAriaListItem(image: "character.textbox", label:"TextField")
 	}
 }

@@ -206,19 +206,52 @@
         }
       }
     },
+    "NAriaBox" : {
+
+    },
+    "NAriaContactCard" : {
+
+    },
+    "NAriaCTA" : {
+
+    },
+    "NAriaHeadline" : {
+
+    },
+    "NAriaIcon" : {
+
+    },
+    "NAriaList" : {
+
+    },
+    "NAriaListItem" : {
+
+    },
+    "NAriaPerson" : {
+
+    },
+    "NAriaProfile" : {
+
+    },
+    "NAriaSection" : {
+
+    },
+    "NAriaSubtitle" : {
+
+    },
     "NAriaTextField" : {
 
     },
     "Patterns" : {
 
     },
+    "Person" : {
+
+    },
     "Profile" : {
       "comment" : "Description of the image in a proifle icon."
     },
     "Required" : {
-
-    },
-    "Simple Form" : {
 
     },
     "Username" : {

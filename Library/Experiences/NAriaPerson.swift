@@ -16,6 +16,7 @@ struct NAriaPerson: View {
     VStack {
             
       Form {
+				
         NAriaTextField(
           label: "First",
           isRequired: true
@@ -28,7 +29,7 @@ struct NAriaPerson: View {
           isRequired: true
         )
       }
-    }.navigationTitle("Simple Form")
+    }.navigationTitle("NAriaPerson")
   }
 }
 
@@ -41,8 +42,9 @@ struct SimpleFormAntiPatterns : View {
 		
 		NAriaSection(header: "Anti Patterns") {
 			NAriaNavigationLink {
-				NAriaListIcon(image: "Icon-TextField", label: "1.3.1 Violation")
+				NAriaListItem(image: "Icon-TextField", label: "1.3.1 Violation")
 			} destination: {
+				
 				VStack {
 					
 					NAriaList {

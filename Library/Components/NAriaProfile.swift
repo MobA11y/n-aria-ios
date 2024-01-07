@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NAriaContactProfile: View {
+struct NAriaProfile: View {
 	
 	var contact: Contact
 	
@@ -44,7 +44,7 @@ struct NAriaContactProfile: View {
 }
 
 #Preview {
-	NAriaContactProfile(
+	NAriaProfile(
 		contact: Contact(
 			name: "Chris McMeeking",
 			affiliation: "ASK Interfaces",

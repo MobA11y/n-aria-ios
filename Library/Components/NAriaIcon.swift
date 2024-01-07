@@ -34,9 +34,6 @@ struct NAriaIcon<Icon:View, Label:View> : View {
 
 #Preview {
 	VStack {
-		
-		NAriaListIcon(image: "Icon-Contacts", label: "Contact Card")
-		
 		NAriaContactCard(
 			contact: Contact(
 				name: "Chris McMeeking",

@@ -22,7 +22,7 @@ struct MainContent: View {
 		
 	var body: some View {
 		
-		NAriaApplication(title: "N-ARIA") {
+		NAriaApp(title: "N-ARIA") {
 			
 			ScrollView{
 				
@@ -36,7 +36,7 @@ struct MainContent: View {
 							NAriaHeadline(text:"Learn")
 							NAriaSubTitle(text:"Presents select N-ARIA Design System Components and explains the related WCAG principles.")
 							NAriaCTA(label: "iOS Accessibility Guidelines") {
-								NAriaFlow.shared.navigateTo(.guidelines)
+								Nav.shared.navigateTo(.guidelines)
 							}.padding()
 						}
 					}.padding()
@@ -47,7 +47,7 @@ struct MainContent: View {
 							NAriaHeadline(text:"Explore")
 							NAriaSubTitle(text:"The entire N-ARIA Design System by component. Useful for agreeing about how a component should implemented!")
 							NAriaCTA(label: "N-ARIA Design System") {
-								NAriaFlow.shared.navigateTo(.patterns)
+								Nav.shared.navigateTo(.patterns)
 							}.padding()
 						}
 					}.padding()
@@ -58,7 +58,7 @@ struct MainContent: View {
 							NAriaHeadline(text:"Share")
 							NAriaSubTitle(text:"Sometimes having a collection of anti patterns to explore is useful! Let us know if you think you have found one worth adding. @MobA11y")
 							NAriaCTA(label: "Collection of Antipatterns") {
-								NAriaFlow.shared.navigateTo(.antipatterns)
+								Nav.shared.navigateTo(.antipatterns)
 							}.padding()
 						}
 					}.padding()
@@ -66,46 +66,7 @@ struct MainContent: View {
 					Collections.setViewForDestination(destination)
 				}
 			}
-		}.environmentObject(NAriaFlow.shared)
-	}
-}
-
-struct NAriaBox<Content:View> : View {
-	
-	@ViewBuilder var content: () -> Content
-	
-	var cornerRadius = 8.0
-	
-	var lineWidth = 4.0
-	
-	var body: some View {
-		ZStack(content:content)
-			.padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-			.frame(maxWidth: .infinity)
-			.overlay(
-				RoundedRectangle(cornerRadius: cornerRadius)
-					.stroke(Color.brandAccentColor, lineWidth: lineWidth)
-			)
-	}
-}
-
-struct NAriaHeadline: View {
-	
-	var text: String
-	
-	var body: some View {
-		Text(text).font(.title2)
-			.padding(EdgeInsets(top: 0, leading: 0, bottom: 4, trailing: 0))
-	}
-}
-
-struct NAriaSubTitle: View {
-	
-	var text: String
-	
-	var body: some View {
-		Text(text).font(.body)
-			.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
+		}.environmentObject(Nav.shared)
 	}
 }
 
