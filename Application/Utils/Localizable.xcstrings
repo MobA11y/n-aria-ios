@@ -132,6 +132,9 @@
     "Experiences" : {
       "comment" : "The header of the experiences section."
     },
+    "Guidelines" : {
+
+    },
     "MobA11y-Affiliation" : {
       "extractionState" : "manual",
       "localizations" : {

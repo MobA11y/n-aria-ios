@@ -28,13 +28,11 @@ struct MainContent: View {
 				
 				VStack {
 					
-					NAriaSubTitle(text: "Don't add miscommunication to your list of barriers in creating accessible iOS content. Have your teams explore N-ARIA Design Systen Documentation for 5 minutes instead.").padding()
-					
 					NAriaBox {
 						
 						VStack {
 							NAriaHeadline(text:"Learn")
-							NAriaSubTitle(text:"Presents select N-ARIA Design System Components and explains the related WCAG principles.")
+							NAriaSubTitle(text:"Presents select N-ARIA Design System Components and explains the related Accessibility Principles.")
 							NAriaCTA(label: "iOS Accessibility Guidelines") {
 								Nav.shared.navigateTo(.guidelines)
 							}.padding()
@@ -45,23 +43,13 @@ struct MainContent: View {
 						
 						VStack {
 							NAriaHeadline(text:"Explore")
-							NAriaSubTitle(text:"The entire N-ARIA Design System by component. Useful for agreeing about how a component should implemented!")
+							NAriaSubTitle(text:"The entire N-ARIA Design System by component. Link your annotation kits to these articles on our documentation site!")
 							NAriaCTA(label: "N-ARIA Design System") {
 								Nav.shared.navigateTo(.patterns)
 							}.padding()
 						}
 					}.padding()
-					
-					NAriaBox {
-						
-						VStack {
-							NAriaHeadline(text:"Share")
-							NAriaSubTitle(text:"Sometimes having a collection of anti patterns to explore is useful! Let us know if you think you have found one worth adding. @MobA11y")
-							NAriaCTA(label: "Collection of Antipatterns") {
-								Nav.shared.navigateTo(.antipatterns)
-							}.padding()
-						}
-					}.padding()
+
 				}.navigationDestination(for:Collections.self) { destination in
 					Collections.setViewForDestination(destination)
 				}

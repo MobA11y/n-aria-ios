@@ -17,11 +17,3 @@ struct NAriaList<Content:View> : View {
 		List(content: content).listRowSpacing(spacing)
 	}
 }
-
-#Preview {
-	NAriaList {
-		NAriaSection(header: "A Section") {
-			NAriaListItem(image: "person", label: "Text Field")
-		}
-	}
-}

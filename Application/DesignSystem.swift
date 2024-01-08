@@ -9,19 +9,19 @@ struct DesignSystem: View {
 			NAriaSection(header: "Components") {
 
 				NAriaNavigationLink {
-					NAriaListItem(image: "person.text.rectangle", label: "NAriaContactCard")
+					NAriaListIcon(image: "person.text.rectangle", label: "NAriaContactCard")
 				} destination: {
 					NAriaContactCard(contact: Data.contacts.first!).navigationTitle("NAriaContactCard")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "button.horizontal", label: "NAriaCTA")
+					NAriaListIcon(image: "button.horizontal", label: "NAriaCTA")
 				} destination: {
 					NAriaCTA(label: "ClickMe") { }.navigationTitle("NAriaCTA")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "button.programmable.square", label: "NAriaIcon")
+					NAriaListIcon(image: "button.programmable.square", label: "NAriaIcon")
 				} destination: {
 					NAriaIcon {
 						Image(systemName: "person")
@@ -31,61 +31,61 @@ struct DesignSystem: View {
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "list.dash", label: "NAriaList")
+					NAriaListIcon(image: "list.dash", label: "NAriaList")
 				} destination: {
 					NAriaList {
 						NAriaSection(header: "A Section") {
-							NAriaListItem(image: "Icon-TextField", label: "Text Field")
+							NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 						}
 					}.navigationTitle("NAriaList")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "text.line.first.and.arrowtriangle.forward", label: "NAriaListItem")
+					NAriaListIcon(image: "text.line.first.and.arrowtriangle.forward", label: "NAriaListItem")
 				} destination: {
-					NAriaListItem(image: "character.textbox", label: "NAriaList").navigationTitle("NAriaListItem")
+					NAriaListIcon(image: "character.textbox", label: "NAriaList").navigationTitle("NAriaListItem")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "person.crop.circle", label: "NAriaProfile")
+					NAriaListIcon(image: "person.crop.circle", label: "NAriaProfile")
 				} destination: {
 					NAriaProfile(contact: Data.contacts.first!).navigationTitle("NAriaProfile")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "text.line.last.and.arrowtriangle.forward", label: "NAriaSection")
+					NAriaListIcon(image: "text.line.last.and.arrowtriangle.forward", label: "NAriaSection")
 				} destination: {
 					NAriaList {
 						NAriaSection(header: "A Section") {
-							NAriaListItem(image: "Icon-TextField", label: "Text Field")
+							NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 						}
 						
 						NAriaSection(header: "Another Section") {
-							NAriaListItem(image: "Icon-TextField", label: "Text Field")
+							NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 						}
 					}.navigationTitle("NAriaSection")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "character.textbox", label: "NAriaTextField")
+					NAriaListIcon(image: "character.textbox", label: "NAriaTextField")
 				} destination: {
 					NAriaTextField(label: "Name").navigationTitle("NAriaTextField")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "bold", label: "NAriaHeadline")
+					NAriaListIcon(image: "bold", label: "NAriaHeadline")
 				} destination: {
 					NAriaHeadline(text: "N-ARIA Rocks").navigationTitle("NAriaHeadline")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "text.append", label: "NAriaSubtitle")
+					NAriaListIcon(image: "text.append", label: "NAriaSubtitle")
 				} destination: {
 					NAriaSubTitle(text: "The N-ARIA Documentation Engine is cool.").navigationTitle("NAriaSubtitle")
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "square.on.square.squareshape.controlhandles", label: "NAriaBox")
+					NAriaListIcon(image: "square.on.square.squareshape.controlhandles", label: "NAriaBox")
 				} destination: {
 					NAriaBox {
 						VStack {
@@ -98,13 +98,13 @@ struct DesignSystem: View {
 			
 			NAriaSection(header: Strings.demosHeader()) {
 				NAriaNavigationLink {
-					NAriaListItem(image: "person.3", label: "NAriaContacts")
+					NAriaListIcon(image: "person.3", label: "NAriaContacts")
 				} destination: {
 					NAriaContacts(list:Data.contacts)
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "dots.and.line.vertical.and.cursorarrow.rectangle", label: "NAriaMasterDetail")
+					NAriaListIcon(image: "dots.and.line.vertical.and.cursorarrow.rectangle", label: "NAriaMasterDetail")
 				} destination: {
 					NAriaMasterDetail {
 						VStack {
@@ -125,7 +125,7 @@ struct DesignSystem: View {
 				}
 				
 				NAriaNavigationLink {
-					NAriaListItem(image: "person", label: "NAriaPerson")
+					NAriaListIcon(image: "person", label: "NAriaPerson")
 				} destination: {
 					NAriaPerson().navigationTitle("NAriaPerson")
 				}

@@ -31,18 +31,3 @@ struct NAriaIcon<Icon:View, Label:View> : View {
 		}
 	}
 }
-
-#Preview {
-	VStack {
-		NAriaContactCard(
-			contact: Contact(
-				name: "Chris McMeeking",
-				affiliation: "HAi1Y",
-				comment:"SwiftUI is fun!",
-				details: "Nope, boring!",
-				profileImage: "Chris",
-				profileImageDescription: ""
-			)
-		)
-	}
-}

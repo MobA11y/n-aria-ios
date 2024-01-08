@@ -12,14 +12,12 @@ enum Collections: String, CaseIterable, Hashable {
 	
 	case guidelines = "Guidelines"
 	case patterns = "Patterns"
-	case antipatterns = "Antipatterns"
 	
 	static func setViewForDestination(_ destination: Collections) -> AnyView {
 		
 		switch destination {
-		case .guidelines: return AnyView(NAriaContacts(list:Data.contacts))
+		case .guidelines: return AnyView(AccessibilityGuidelines())
 		case .patterns: return AnyView(DesignSystem())
-		case .antipatterns: return AnyView(NAriaContacts(list:Data.contacts))
 		}
 	}
 }
@@ -58,7 +56,7 @@ class Nav: ObservableObject {
 				header: Strings.componentsHeader()
 			) {
 				NAriaNavigationLink {
-					NAriaListItem(image: "Icon-TextField", label: "Text Field")
+					NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 				} destination: {
 					NAriaPerson()
 				}
