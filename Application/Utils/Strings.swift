@@ -21,8 +21,6 @@ struct Strings {
 	}
 	
 	static func profileIconDescription() -> String {
-		return NSLocalizedString(
-			"Profile", comment: "Description of the image in a proifle icon."
-		)
+		return NSLocalizedString("Profile", comment: "Description of the image in a proifle icon.")
 	}
 }

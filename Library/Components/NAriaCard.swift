@@ -7,11 +7,17 @@
 
 import SwiftUI
 
-struct NAriaContactCard: View {
+struct NAriaCard: View {
 	
-	var contact: Contact
+	var title: String
 	
-	var iconDescription: String = NSLocalizedString("View Profile", comment: "")
+	var subtitle: String
+	
+	var systemName: String
+	
+	var imageDescription:String
+	
+	var style: NAriaEmphasisStyles = .active
 	
 	@Environment(\.dynamicTypeSize) var dynamicTypeSize
 	
@@ -23,37 +29,29 @@ struct NAriaContactCard: View {
 		
 		let alignment = axSize ? Alignment.center : Alignment.leading
 		
+		let listRowBackground = NAriaEmphasisStyles.getStyleAsView(style)
+		
 		NAriaIcon {
-			NAriaProfileIcon(image: contact.profileImage)
-				.accessibilityLabel(contact.profileImageDescription)
+			Image(systemName: systemName).accessibilityLabel(imageDescription)
 		} label: {
 			
 			VStack(alignment: .leading) {
 				
-				Text(contact.name)
+				Text(title)
 					.foregroundStyle(Color.primary)
 					.font(.headline)
 					.frame(maxWidth: .infinity, alignment: alignment)
 					.multilineTextAlignment(textAlign)
 				
-				Text(contact.comment)
+				Text(subtitle)
 					.foregroundStyle(Color.primary)
 					.font(.subheadline)
 					.frame(maxWidth: .infinity, alignment: alignment)
 					.multilineTextAlignment(textAlign)
 				
-				Text(contact.affiliation)
-					.foregroundStyle(Color.primary)
-					.font(.subheadline)
-					.frame(maxWidth: .infinity, alignment: alignment)
-					.multilineTextAlignment(.center)
-				
-			}.accessibilityElement(children: .combine)
-				.accessibilityInputLabels([contact.name])
-		}
+			}
+		}.accessibilityElement(children: .combine)
+			.listRowBackground(listRowBackground)
+			
 	}
-}
-
-#Preview {
-	NAriaContacts(list:Data.contacts)
 }

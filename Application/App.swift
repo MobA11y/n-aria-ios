@@ -29,7 +29,6 @@ struct MainContent: View {
 				VStack {
 					
 					NAriaBox {
-						
 						VStack {
 							NAriaHeadline(text:"Learn")
 							NAriaSubTitle(text:"Presents select N-ARIA Design System Components and explains the related Accessibility Principles.")

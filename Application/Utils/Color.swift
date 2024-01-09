@@ -12,4 +12,5 @@ extension Color {
 	static let brandAccentColor = Color("AccentColor")
 	static let brandActiveColor = Color("ActiveColor")
 	static let brandSecondaryColor = Color("BrandSecondary")
+	static let errorColor = Color("ErrorColor")
 }

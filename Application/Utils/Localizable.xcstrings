@@ -132,7 +132,13 @@
     "Experiences" : {
       "comment" : "The header of the experiences section."
     },
+    "Fixes" : {
+
+    },
     "Guidelines" : {
+
+    },
+    "Hello, World!" : {
 
     },
     "MobA11y-Affiliation" : {
@@ -141,12 +147,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "HAi1Y"
+            "value" : "N-ARIA"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "HAi1Y"
           }
         }
@@ -267,6 +273,12 @@
 
     },
     "Violation" : {
+
+    },
+    "WCAG 1.1.1" : {
+
+    },
+    "WCAG 1.3.1" : {
 
     }
   },

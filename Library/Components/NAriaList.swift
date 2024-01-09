@@ -15,5 +15,10 @@ struct NAriaList<Content:View> : View {
 	
 	var body: some View {
 		List(content: content).listRowSpacing(spacing)
+			.listRowBackground(
+				RoundedRectangle(cornerRadius: 10)
+					.fill(Color.brandActiveColor)
+					.stroke(Color.brandAccentColor, lineWidth: 4)
+			)
 	}
 }
