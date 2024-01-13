@@ -14,7 +14,7 @@ struct NAriaUser: View {
 	var body: some View {
 		switch user.authenticated {
 		case .authenticated: NAriaUserIcon(user: user)
-		default:NAriaLoginButton(user:$user)
+		default:NAriaLoginButton(user:$user).accessibilityIdentifier("/api/auth/login")
 		}
 	}
 }
