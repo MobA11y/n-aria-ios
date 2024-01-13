@@ -13,6 +13,6 @@ struct NAriaSubTitle: View {
 	
 	var body: some View {
 		Text(text).font(.body)
-			.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
+			.frame(maxWidth: .infinity, alignment: .center)
 	}
 }

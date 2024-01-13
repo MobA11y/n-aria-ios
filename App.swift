@@ -5,7 +5,9 @@
 //  Created by Chris McMeeking on 12/12/23.
 //
 
+import Auth0
 import SwiftUI
+
 
 @main struct NARIAApp: App {
 	
@@ -19,14 +21,15 @@ import SwiftUI
 }
 
 struct MainContent: View {
-		
+	
+	@State var user: User = User()
+	
 	var body: some View {
 		
 		NAriaApp(title: "N-ARIA") {
 			
-			ScrollView{
-				
-				VStack {
+			VStack {
+				ScrollView {
 					
 					NAriaBox {
 						VStack {
@@ -34,7 +37,7 @@ struct MainContent: View {
 							NAriaSubTitle(text:"Presents select N-ARIA Design System Components and explains the related Accessibility Principles.")
 							NAriaCTA(label: "iOS Accessibility Guidelines") {
 								Nav.shared.navigateTo(.guidelines)
-							}.padding()
+							}.padding().accessibilityIdentifier("guidelines")
 						}
 					}.padding()
 					
@@ -45,15 +48,21 @@ struct MainContent: View {
 							NAriaSubTitle(text:"The entire N-ARIA Design System by component. Link your annotation kits to these articles on our documentation site!")
 							NAriaCTA(label: "N-ARIA Design System") {
 								Nav.shared.navigateTo(.patterns)
-							}.padding()
+							}.padding().accessibilityIdentifier("design")
 						}
 					}.padding()
-
-				}.navigationDestination(for:Collections.self) { destination in
-					Collections.setViewForDestination(destination)
 				}
+				
+				Spacer()
+								
+				NAriaUser(user:$user)
+									
+			}.navigationDestination(for:Collections.self) { destination in
+				Collections.setViewForDestination(destination)
 			}
+			
 		}.environmentObject(Nav.shared)
+			.environmentObject(user)
 	}
 }
 

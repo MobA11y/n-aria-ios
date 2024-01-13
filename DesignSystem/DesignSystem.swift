@@ -130,7 +130,7 @@ struct DesignSystem: View {
 					NAriaPerson().navigationTitle("NAriaPerson")
 				}
 			}
-		}.navigationTitle("Design System")
+		}.navigationTitle("Design")
 	}
 }
 

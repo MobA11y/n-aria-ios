@@ -24,12 +24,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "MobA11y"
+            "value" : "MobA11y - CTO"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "MobA11y"
           }
         }
@@ -126,7 +126,7 @@
     "Contacts" : {
 
     },
-    "Design System" : {
+    "Design" : {
 
     },
     "Experiences" : {
@@ -139,6 +139,9 @@
 
     },
     "Hello, World!" : {
+
+    },
+    "Loading..." : {
 
     },
     "MobA11y-Affiliation" : {
@@ -164,12 +167,12 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mobile Accessibility"
+            "value" : "Mobile Accessibility Knowledge Sharing Company"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "Accesibilidad móvil"
           }
         }
@@ -252,6 +255,9 @@
 
     },
     "Patterns" : {
+
+    },
+    "Perceivable" : {
 
     },
     "Person" : {

@@ -16,7 +16,7 @@
 		8306E1802B4A88D80003A326 /* NAriaHeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E17F2B4A88D80003A326 /* NAriaHeadline.swift */; };
 		8306E1822B4A89010003A326 /* NAriaSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E1812B4A89010003A326 /* NAriaSubtitle.swift */; };
 		8306E1842B4A893C0003A326 /* NAriaBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E1832B4A893C0003A326 /* NAriaBox.swift */; };
-		831FA5D12B4BA0E7008095F4 /* AccessibilityGuidelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FA5D02B4BA0E7008095F4 /* AccessibilityGuidelines.swift */; };
+		831FA5D12B4BA0E7008095F4 /* Guidelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FA5D02B4BA0E7008095F4 /* Guidelines.swift */; };
 		831FAB2C2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */; };
 		832562822B38E7B70074E282 /* NAriaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562812B38E7B70074E282 /* NAriaIcon.swift */; };
 		832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562862B38F47C0074E282 /* NAriaProfileIcon.swift */; };
@@ -39,6 +39,13 @@
 		83CAF8482B4C9FF40047D6A9 /* Perceivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF8472B4C9FF40047D6A9 /* Perceivable.swift */; };
 		83CAF84A2B4CA1020047D6A9 /* WCAG111.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF8492B4CA1020047D6A9 /* WCAG111.swift */; };
 		83CAF84C2B4CA92C0047D6A9 /* NAriaImageIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF84B2B4CA92C0047D6A9 /* NAriaImageIcon.swift */; };
+		83CAF8752B52480A0047D6A9 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 83CAF8742B52480A0047D6A9 /* Auth0 */; };
+		83CAF8772B524A2C0047D6A9 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83CAF8762B5248640047D6A9 /* Auth0.plist */; };
+		83CAF8792B524EA80047D6A9 /* NAriaLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF8782B524EA80047D6A9 /* NAriaLoginButton.swift */; };
+		83CAF87B2B525B020047D6A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF87A2B525B020047D6A9 /* User.swift */; };
+		83CAF87E2B52E3FF0047D6A9 /* NAriaUserIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF87D2B52E3FF0047D6A9 /* NAriaUserIcon.swift */; };
+		83CAF8802B52E7220047D6A9 /* NAriaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF87F2B52E7220047D6A9 /* NAriaImage.swift */; };
+		83CAF8822B52EAE90047D6A9 /* NAriaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF8812B52EAE90047D6A9 /* NAriaUser.swift */; };
 		83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */; };
 		83E6EB082B37E2BD00AE3E2E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB072B37E2BD00AE3E2E /* Color.swift */; };
 		83E6EB0A2B37EB1C00AE3E2E /* NAriaListIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */; };
@@ -88,7 +95,7 @@
 		8306E17F2B4A88D80003A326 /* NAriaHeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaHeadline.swift; sourceTree = "<group>"; };
 		8306E1812B4A89010003A326 /* NAriaSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaSubtitle.swift; sourceTree = "<group>"; };
 		8306E1832B4A893C0003A326 /* NAriaBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaBox.swift; sourceTree = "<group>"; };
-		831FA5D02B4BA0E7008095F4 /* AccessibilityGuidelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityGuidelines.swift; sourceTree = "<group>"; };
+		831FA5D02B4BA0E7008095F4 /* Guidelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guidelines.swift; sourceTree = "<group>"; };
 		831FAB272B3BB52000A8A507 /* N-ARIA-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-ARIA-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_ARIA_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		832562812B38E7B70074E282 /* NAriaIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaIcon.swift; sourceTree = "<group>"; };
@@ -113,6 +120,13 @@
 		83CAF8472B4C9FF40047D6A9 /* Perceivable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perceivable.swift; sourceTree = "<group>"; };
 		83CAF8492B4CA1020047D6A9 /* WCAG111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCAG111.swift; sourceTree = "<group>"; };
 		83CAF84B2B4CA92C0047D6A9 /* NAriaImageIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaImageIcon.swift; sourceTree = "<group>"; };
+		83CAF8722B5247A40047D6A9 /* N-ARIA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "N-ARIA-Info.plist"; sourceTree = "<group>"; };
+		83CAF8762B5248640047D6A9 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		83CAF8782B524EA80047D6A9 /* NAriaLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaLoginButton.swift; sourceTree = "<group>"; };
+		83CAF87A2B525B020047D6A9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		83CAF87D2B52E3FF0047D6A9 /* NAriaUserIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaUserIcon.swift; sourceTree = "<group>"; };
+		83CAF87F2B52E7220047D6A9 /* NAriaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaImage.swift; sourceTree = "<group>"; };
+		83CAF8812B52EAE90047D6A9 /* NAriaUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaUser.swift; sourceTree = "<group>"; };
 		83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		83E6EB072B37E2BD00AE3E2E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaListIcon.swift; sourceTree = "<group>"; };
@@ -133,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CAF8752B52480A0047D6A9 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,12 +164,17 @@
 		0FA63BCD2B29333D00EC119F = {
 			isa = PBXGroup;
 			children = (
-				835109C82B38C80500072121 /* Application */,
+				0FA63BD92B29333D00EC119F /* App.swift */,
+				832562942B3A80A20074E282 /* README.md */,
+				83CAF8762B5248640047D6A9 /* Auth0.plist */,
+				83CAF8722B5247A40047D6A9 /* N-ARIA-Info.plist */,
+				83CAF84D2B503E970047D6A9 /* DesignSystem */,
+				83AF3C342B4BC47B0065C27C /* Guidelines */,
+				83A71DE32B4A089A005BC7B6 /* Utils */,
 				83A7E2F22B38A0E8003577CF /* Library */,
-				831FAB282B3BB52000A8A507 /* N-ARIA-UITests */,
+				831FAB282B3BB52000A8A507 /* Tests */,
 				0FA63BD72B29333D00EC119F /* Products */,
 				8325627D2B38D22A0074E282 /* Frameworks */,
-				832562942B3A80A20074E282 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +216,9 @@
 				8306E1812B4A89010003A326 /* NAriaSubtitle.swift */,
 				8306E1832B4A893C0003A326 /* NAriaBox.swift */,
 				83CAF84B2B4CA92C0047D6A9 /* NAriaImageIcon.swift */,
+				83CAF8782B524EA80047D6A9 /* NAriaLoginButton.swift */,
+				83CAF87D2B52E3FF0047D6A9 /* NAriaUserIcon.swift */,
+				83CAF87F2B52E7220047D6A9 /* NAriaImage.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -208,12 +231,12 @@
 			path = Modifiers;
 			sourceTree = "<group>";
 		};
-		831FAB282B3BB52000A8A507 /* N-ARIA-UITests */ = {
+		831FAB282B3BB52000A8A507 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */,
 			);
-			path = "N-ARIA-UITests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		8325627D2B38D22A0074E282 /* Frameworks */ = {
@@ -223,21 +246,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		835109C82B38C80500072121 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				0FA63BD92B29333D00EC119F /* App.swift */,
-				83A71DE42B4A08B6005BC7B6 /* DesignSystem.swift */,
-				83AF3C342B4BC47B0065C27C /* Guidelines */,
-				83A71DE32B4A089A005BC7B6 /* Utils */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
 		83805DD22B34B6940007DFA7 /* Types */ = {
 			isa = PBXGroup;
 			children = (
 				83805DD32B34B6AE0007DFA7 /* Contact.swift */,
+				83CAF87A2B525B020047D6A9 /* User.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -257,8 +270,8 @@
 		83A7E2F22B38A0E8003577CF /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				83CAF8442B4C8D460047D6A9 /* Shapes */,
 				83BDEB6B2B43DE110055F342 /* NariaApp.swift */,
+				83CAF8442B4C8D460047D6A9 /* Shapes */,
 				83E6EB172B38279600AE3E2E /* Experiences */,
 				83BDEB6A2B43DD850055F342 /* Navigation */,
 				83E6EB212B38325900AE3E2E /* AntiPatterns */,
@@ -273,7 +286,7 @@
 		83AF3C342B4BC47B0065C27C /* Guidelines */ = {
 			isa = PBXGroup;
 			children = (
-				831FA5D02B4BA0E7008095F4 /* AccessibilityGuidelines.swift */,
+				831FA5D02B4BA0E7008095F4 /* Guidelines.swift */,
 				83CAF8472B4C9FF40047D6A9 /* Perceivable.swift */,
 				83AF3C352B4BC49A0065C27C /* WCAG131.swift */,
 				83CAF8492B4CA1020047D6A9 /* WCAG111.swift */,
@@ -299,6 +312,14 @@
 			path = Shapes;
 			sourceTree = "<group>";
 		};
+		83CAF84D2B503E970047D6A9 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				83A71DE42B4A08B6005BC7B6 /* DesignSystem.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
 		83E6EB172B38279600AE3E2E /* Experiences */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +327,7 @@
 				0FA63BDB2B29333D00EC119F /* NAriaPerson.swift */,
 				8325628C2B3904130074E282 /* NAriaContact.swift */,
 				8325628A2B3902A10074E282 /* NAriaMasterDetail.swift */,
+				83CAF8812B52EAE90047D6A9 /* NAriaUser.swift */,
 			);
 			path = Experiences;
 			sourceTree = "<group>";
@@ -337,6 +359,9 @@
 			dependencies = (
 			);
 			name = "N-ARIA";
+			packageProductDependencies = (
+				83CAF8742B52480A0047D6A9 /* Auth0 */,
+			);
 			productName = NARIA;
 			productReference = 0FA63BD62B29333D00EC119F /* N-ARIA.app */;
 			productType = "com.apple.product-type.application";
@@ -388,6 +413,9 @@
 				es,
 			);
 			mainGroup = 0FA63BCD2B29333D00EC119F;
+			packageReferences = (
+				83CAF8732B52480A0047D6A9 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = 0FA63BD72B29333D00EC119F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -403,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CAF8772B524A2C0047D6A9 /* Auth0.plist in Resources */,
 				0FA63BDE2B29334100EC119F /* Assets.xcassets in Resources */,
 				83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */,
 			);
@@ -422,7 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831FA5D12B4BA0E7008095F4 /* AccessibilityGuidelines.swift in Sources */,
+				831FA5D12B4BA0E7008095F4 /* Guidelines.swift in Sources */,
 				0FA63BDC2B29333D00EC119F /* NAriaPerson.swift in Sources */,
 				8325628B2B3902A10074E282 /* NAriaMasterDetail.swift in Sources */,
 				83AF3C362B4BC49A0065C27C /* WCAG131.swift in Sources */,
@@ -437,6 +466,7 @@
 				83E6EB232B38334D00AE3E2E /* NAriaContactCard_1.swift in Sources */,
 				83805DD62B34C7300007DFA7 /* NAriaContacts.swift in Sources */,
 				83CAF8482B4C9FF40047D6A9 /* Perceivable.swift in Sources */,
+				83CAF8802B52E7220047D6A9 /* NAriaImage.swift in Sources */,
 				83E6EB122B3815CE00AE3E2E /* Strings.swift in Sources */,
 				83FD35A22B45D45400B2B561 /* NAriaTabView.swift in Sources */,
 				83A71DE02B49BD47005BC7B6 /* NAriaTab.swift in Sources */,
@@ -446,6 +476,7 @@
 				83E6EB1B2B382C6A00AE3E2E /* NAriaList.swift in Sources */,
 				832562932B3946E10074E282 /* NAriaContact_1.swift in Sources */,
 				8306E1802B4A88D80003A326 /* NAriaHeadline.swift in Sources */,
+				83CAF8792B524EA80047D6A9 /* NAriaLoginButton.swift in Sources */,
 				0FA63BDA2B29333D00EC119F /* App.swift in Sources */,
 				83CAF84C2B4CA92C0047D6A9 /* NAriaImageIcon.swift in Sources */,
 				8325628F2B393D2B0074E282 /* NAriaSheet.swift in Sources */,
@@ -453,6 +484,8 @@
 				83CAF8412B4BD2B00047D6A9 /* NAriaCard.swift in Sources */,
 				832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */,
 				83CAF8432B4C8C430047D6A9 /* SwiftUIView.swift in Sources */,
+				83CAF87B2B525B020047D6A9 /* User.swift in Sources */,
+				83CAF8822B52EAE90047D6A9 /* NAriaUser.swift in Sources */,
 				8306E1822B4A89010003A326 /* NAriaSubtitle.swift in Sources */,
 				83BDEB6C2B43DE110055F342 /* NariaApp.swift in Sources */,
 				83CAF84A2B4CA1020047D6A9 /* WCAG111.swift in Sources */,
@@ -461,6 +494,7 @@
 				0FA63BEA2B29344D00EC119F /* NAriaTextField.swift in Sources */,
 				83A71DE52B4A08B6005BC7B6 /* DesignSystem.swift in Sources */,
 				83CAF8462B4C8D5E0047D6A9 /* NAriaEmphasized.swift in Sources */,
+				83CAF87E2B52E3FF0047D6A9 /* NAriaUserIcon.swift in Sources */,
 				83E6EB082B37E2BD00AE3E2E /* Color.swift in Sources */,
 				83805DCF2B34B56E0007DFA7 /* NAriaContactCard.swift in Sources */,
 				83E6EB202B38304900AE3E2E /* NAriaTextField_1.swift in Sources */,
@@ -617,6 +651,7 @@
 				DEVELOPMENT_TEAM = WH6B4XQ7N7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "N-ARIA-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -628,7 +663,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moba11y.naria;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.n-aria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -649,6 +684,7 @@
 				DEVELOPMENT_TEAM = WH6B4XQ7N7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "N-ARIA-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -660,7 +696,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moba11y.naria;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moba11y.n-aria";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -736,6 +772,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83CAF8732B52480A0047D6A9 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83CAF8742B52480A0047D6A9 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83CAF8732B52480A0047D6A9 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0FA63BCE2B29333D00EC119F /* Project object */;
 }

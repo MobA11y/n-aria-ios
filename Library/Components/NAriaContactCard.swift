@@ -48,9 +48,9 @@ struct NAriaContactCard: View {
 					.frame(maxWidth: .infinity, alignment: alignment)
 					.multilineTextAlignment(.center)
 				
-			}.accessibilityElement(children: .combine)
-				.accessibilityInputLabels([contact.name])
-		}
+			}
+		}.accessibilityElement(children: .combine)
+			.accessibilityInputLabels([contact.name])
 	}
 }
 

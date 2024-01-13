@@ -41,7 +41,7 @@ struct NAriaCard: View {
 					.foregroundStyle(Color.primary)
 					.font(.headline)
 					.frame(maxWidth: .infinity, alignment: alignment)
-					.multilineTextAlignment(textAlign)
+					.multilineTextAlignment(textAlign)				
 				
 				Text(subtitle)
 					.foregroundStyle(Color.primary)

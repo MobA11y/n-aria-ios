@@ -37,10 +37,7 @@ struct NAriaListIcon: View {
 					.accessibilityLabel(imageDescription)
 				
 			} label: {
-				
 				Text(label).font(.body)
-					.accessibilityIdentifier(identifier())
-				
 			}
 		}
 	}

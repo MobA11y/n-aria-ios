@@ -24,7 +24,6 @@ enum Collections: String, CaseIterable, Hashable {
 
 class Nav: ObservableObject {
 	
-	
 	static let shared = Nav()
 	
 	@Published var path = NavigationPath()
@@ -43,24 +42,5 @@ class Nav: ObservableObject {
 	
 	func navigateTo(_ destination:Collections) {
 		path.append(destination)
-	}
-}
-
-#Preview{
-	NAriaApp(title: Strings.appName()) {
-		
-		@ScaledMetric(relativeTo:.headline) var size = 40
-		
-		NAriaList {
-			NAriaSection(
-				header: Strings.componentsHeader()
-			) {
-				NAriaNavigationLink {
-					NAriaListIcon(image: "Icon-TextField", label: "Text Field")
-				} destination: {
-					NAriaPerson()
-				}
-			}
-		}
 	}
 }

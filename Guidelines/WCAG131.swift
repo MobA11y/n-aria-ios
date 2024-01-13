@@ -53,7 +53,7 @@ struct WCAG131: View {
 						}
 					}
 				} tabItem: {
-					Label("Fixes",systemImage: "accessibility").accessibilityIdentifier("wcag131")
+					Label("Fixes",systemImage: "accessibility").accessibilityIdentifier("wcag_1_3_1")
 				}
 				
 				NAriaTab {
@@ -91,7 +91,8 @@ struct WCAG131: View {
 					}
 					
 				} tabItem: {
-					Label("Bugs", systemImage: "exclamationmark.triangle").accessibilityIdentifier("wcag131")
+					Label("Bugs", systemImage: "exclamationmark.triangle")
+						.accessibilityIdentifier("wcag_1_3_1-bugs")
 				}
 				
 			}
