@@ -39,6 +39,12 @@ struct MainContent: View {
 					}
 					
 					NAriaNavigationLink {
+						NAriaListIcon(image: "person.text.rectangle", label: "NAriaPager")
+					} destination: {
+						NAriaPager_1(isActive:false).navigationTitle("NAriaContactCard")
+					}
+					
+					NAriaNavigationLink {
 						NAriaListIcon(image: "button.horizontal", label: "NAriaCTA")
 					} destination: {
 						NAriaCTA(label: "ClickMe") { }.navigationTitle("NAriaCTA")

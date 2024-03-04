@@ -129,6 +129,9 @@
     "Design" : {
 
     },
+    "Error" : {
+
+    },
     "Experiences" : {
       "comment" : "The header of the experiences section."
     },
@@ -139,6 +142,15 @@
 
     },
     "Hello, World!" : {
+
+    },
+    "Hi" : {
+
+    },
+    "Hi Again" : {
+
+    },
+    "Hi one more time" : {
 
     },
     "Loading..." : {
