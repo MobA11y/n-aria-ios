@@ -33,47 +33,41 @@ struct MainContent: View {
 				NAriaSection(header: "Components") {
 					
 					NAriaNavigationLink {
-						NAriaListIcon(image: "person.text.rectangle", label: "NAriaContactCard")
+						NAriaListIcon(image: "person.text.rectangle", label: "ContactCard")
 					} destination: {
-						NAriaContactCard(contact: Data.contacts.first!).navigationTitle("NAriaContactCard")
+						NAriaContactCard(contact: Data.contacts.first!).navigationTitle("ContactCard")
 					}
 					
 					NAriaNavigationLink {
-						NAriaListIcon(image: "person.text.rectangle", label: "NAriaPager")
+						NAriaListIcon(image: "button.horizontal", label: "CTA")
 					} destination: {
-						NAriaPager_1(isActive:false).navigationTitle("NAriaContactCard")
+						NAriaCTA(label: "ClickMe") { }.navigationTitle("CTA")
 					}
 					
 					NAriaNavigationLink {
-						NAriaListIcon(image: "button.horizontal", label: "NAriaCTA")
-					} destination: {
-						NAriaCTA(label: "ClickMe") { }.navigationTitle("NAriaCTA")
-					}
-					
-					NAriaNavigationLink {
-						NAriaListIcon(image: "button.programmable.square", label: "NAriaIcon")
+						NAriaListIcon(image: "button.programmable.square", label: "Icon")
 					} destination: {
 						NAriaIcon {
 							Image(systemName: "person")
 						} label: {
 							Text("Person")
-						}.navigationTitle("NAriaIcon")
+						}.navigationTitle("Icon")
 					}
 					
 					NAriaNavigationLink {
-						NAriaListIcon(image: "list.dash", label: "NAriaList")
+						NAriaListIcon(image: "list.dash", label: "List")
 					} destination: {
 						NAriaList {
 							NAriaSection(header: "A Section") {
 								NAriaListIcon(image: "Icon-TextField", label: "Text Field")
 							}
-						}.navigationTitle("NAriaList")
+						}.navigationTitle("List")
 					}
 					
 					NAriaNavigationLink {
-						NAriaListIcon(image: "text.line.first.and.arrowtriangle.forward", label: "NAriaListItem")
+						NAriaListIcon(image: "text.line.first.and.arrowtriangle.forward", label: "ListItem")
 					} destination: {
-						NAriaListIcon(image: "character.textbox", label: "NAriaList").navigationTitle("NAriaListItem")
+						NAriaListIcon(image: "character.textbox", label: "ListItem").navigationTitle("ListItem")
 					}
 					
 					NAriaNavigationLink {
