@@ -17,7 +17,6 @@
 		8306E1822B4A89010003A326 /* NAriaSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E1812B4A89010003A326 /* NAriaSubtitle.swift */; };
 		8306E1842B4A893C0003A326 /* NAriaBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8306E1832B4A893C0003A326 /* NAriaBox.swift */; };
 		831FA5D12B4BA0E7008095F4 /* Guidelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FA5D02B4BA0E7008095F4 /* Guidelines.swift */; };
-		831FAB2C2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */; };
 		832562822B38E7B70074E282 /* NAriaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562812B38E7B70074E282 /* NAriaIcon.swift */; };
 		832562872B38F47C0074E282 /* NAriaProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562862B38F47C0074E282 /* NAriaProfileIcon.swift */; };
 		832562892B38FAE00074E282 /* NAriaProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562882B38FAE00074E282 /* NAriaProfile.swift */; };
@@ -26,6 +25,7 @@
 		8325628F2B393D2B0074E282 /* NAriaSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325628E2B393D2B0074E282 /* NAriaSheet.swift */; };
 		832562912B393DF60074E282 /* NAriaCTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562902B393DF60074E282 /* NAriaCTA.swift */; };
 		832562932B3946E10074E282 /* NAriaContact_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832562922B3946E10074E282 /* NAriaContact_1.swift */; };
+		834AE3C52C2DA83D006C6C24 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834AE3C42C2DA83D006C6C24 /* Test.swift */; };
 		83805DCF2B34B56E0007DFA7 /* NAriaContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */; };
 		83805DD42B34B6AE0007DFA7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83805DD32B34B6AE0007DFA7 /* Contact.swift */; };
 		83805DD62B34C7300007DFA7 /* NAriaContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83805DD52B34C7300007DFA7 /* NAriaContacts.swift */; };
@@ -45,7 +45,6 @@
 		83CAF87E2B52E3FF0047D6A9 /* NAriaUserIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF87D2B52E3FF0047D6A9 /* NAriaUserIcon.swift */; };
 		83CAF8802B52E7220047D6A9 /* NAriaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF87F2B52E7220047D6A9 /* NAriaImage.swift */; };
 		83CAF8822B52EAE90047D6A9 /* NAriaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAF8812B52EAE90047D6A9 /* NAriaUser.swift */; };
-		83CAF8842B52F9680047D6A9 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83CAF8832B52F9680047D6A9 /* Auth0.plist */; };
 		83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */; };
 		83E6EB082B37E2BD00AE3E2E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB072B37E2BD00AE3E2E /* Color.swift */; };
 		83E6EB0A2B37EB1C00AE3E2E /* NAriaListIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */; };
@@ -97,7 +96,6 @@
 		8306E1832B4A893C0003A326 /* NAriaBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaBox.swift; sourceTree = "<group>"; };
 		831FA5D02B4BA0E7008095F4 /* Guidelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guidelines.swift; sourceTree = "<group>"; };
 		831FAB272B3BB52000A8A507 /* N-ARIA-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-ARIA-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_ARIA_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		832562812B38E7B70074E282 /* NAriaIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaIcon.swift; sourceTree = "<group>"; };
 		832562862B38F47C0074E282 /* NAriaProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaProfileIcon.swift; sourceTree = "<group>"; };
 		832562882B38FAE00074E282 /* NAriaProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaProfile.swift; sourceTree = "<group>"; };
@@ -107,6 +105,7 @@
 		832562902B393DF60074E282 /* NAriaCTA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaCTA.swift; sourceTree = "<group>"; };
 		832562922B3946E10074E282 /* NAriaContact_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContact_1.swift; sourceTree = "<group>"; };
 		832562942B3A80A20074E282 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		834AE3C42C2DA83D006C6C24 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		83805DCE2B34B56E0007DFA7 /* NAriaContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContactCard.swift; sourceTree = "<group>"; };
 		83805DD32B34B6AE0007DFA7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		83805DD52B34C7300007DFA7 /* NAriaContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaContacts.swift; sourceTree = "<group>"; };
@@ -126,7 +125,6 @@
 		83CAF87D2B52E3FF0047D6A9 /* NAriaUserIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaUserIcon.swift; sourceTree = "<group>"; };
 		83CAF87F2B52E7220047D6A9 /* NAriaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaImage.swift; sourceTree = "<group>"; };
 		83CAF8812B52EAE90047D6A9 /* NAriaUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaUser.swift; sourceTree = "<group>"; };
-		83CAF8832B52F9680047D6A9 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		83E6EB042B37D27000AE3E2E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		83E6EB072B37E2BD00AE3E2E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		83E6EB092B37EB1C00AE3E2E /* NAriaListIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAriaListIcon.swift; sourceTree = "<group>"; };
@@ -166,7 +164,6 @@
 			children = (
 				0FA63BD92B29333D00EC119F /* App.swift */,
 				832562942B3A80A20074E282 /* README.md */,
-				83CAF8832B52F9680047D6A9 /* Auth0.plist */,
 				83CAF8722B5247A40047D6A9 /* N-ARIA-Info.plist */,
 				83CAF84D2B503E970047D6A9 /* DesignSystem */,
 				83AF3C342B4BC47B0065C27C /* Guidelines */,
@@ -234,7 +231,7 @@
 		831FAB282B3BB52000A8A507 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				831FAB2B2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift */,
+				834AE3C42C2DA83D006C6C24 /* Test.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -432,7 +429,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA63BDE2B29334100EC119F /* Assets.xcassets in Resources */,
-				83CAF8842B52F9680047D6A9 /* Auth0.plist in Resources */,
 				83E6EB052B37D27000AE3E2E /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,7 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831FAB2C2B3BB52000A8A507 /* N_ARIA_UITestsLaunchTests.swift in Sources */,
+				834AE3C52C2DA83D006C6C24 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

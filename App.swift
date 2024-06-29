@@ -54,9 +54,7 @@ struct MainContent: View {
 				}
 				
 				Spacer()
-								
-				NAriaUser(user:$user)
-									
+																	
 			}.navigationDestination(for:Collections.self) { destination in
 				Collections.setViewForDestination(destination)
 			}
